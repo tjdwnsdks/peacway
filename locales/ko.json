@@ -1,0 +1,121 @@
+{
+  "meta": {
+    "index": { "title": "PEACEWAY PAJU — 지뢰밭 위에 평화의 나무를 심다", "description": "DMZ 접경지역에서 세계인이 직접 평화의 꽃나무를 심고, 한국 문화를 체험하는 지속가능관광 프로그램" },
+    "about": { "title": "About — PEACEWAY PAJU", "description": "DMZ 평화 발걸음 농장, 파트너십, 공간 소개 — PEACEWAY PAJU" },
+    "programs": { "title": "Programs — PEACEWAY PAJU", "description": "평화의 나무 심기, 지뢰 교육 체험, 문화 체험 프로그램 — PEACEWAY PAJU" },
+    "journey": { "title": "Journey — PEACEWAY PAJU", "description": "관광객 여정, 체험 동선, 소요 시간 안내 — PEACEWAY PAJU" },
+    "garden": { "title": "Peace Garden — PEACEWAY PAJU", "description": "평화 꽃나무 도감, 사계절 개화 캘린더 — PEACEWAY PAJU" },
+    "contact": { "title": "Contact — PEACEWAY PAJU", "description": "프로그램 예약·문의, FAQ — PEACEWAY PAJU" },
+    "patent": { "title": "AI 통번역 — PEACEWAY PAJU", "description": "AI 실시간 통번역 관광 플랫폼, 특허 선출원 기술 — PEACEWAY PAJU" }
+  },
+  "nav": { "home": "홈", "about": "소개", "programs": "프로그램", "journey": "여정", "garden": "평화 정원", "contact": "문의", "patent": "AI 통번역", "ariaMenu": "메뉴" },
+  "lang": { "ko": "한국어", "en": "English", "ja": "日本語", "zhCN": "简体中文", "zhTW": "繁體中文" },
+  "footer": { "copyright": "© 2026 PEACEWAY PAJU", "company": "케이마인드 주식회사 (K-MIND Co., Ltd.)", "location": "경기도 파주시 · contact@peaceway.kr" },
+  "home": {
+    "hero": {
+      "badge": "Sustainable Tourism · DMZ Paju",
+      "tagline": "지뢰밭 위에 평화의 나무를 심다",
+      "desc": "DMZ 접경지역에서 세계인이 직접 평화의 꽃나무를 심고,<br>한국 문화를 체험하는 지속가능관광 프로그램",
+      "btnPrograms": "프로그램 보기",
+      "btnContact": "예약 문의하기"
+    },
+    "pillar1": { "title": "나무를 심다", "desc": "DMZ 토지에 직접 평화의 꽃나무를 식재합니다. 세계 유일한 체험." },
+    "pillar2": { "title": "평화를 기록하다", "desc": "온라인에 영구 등록하고, 내가 심은 나무의 성장을 추적합니다." },
+    "pillar3": { "title": "역사를 배우다", "desc": "평화 역사 교육 프로그램으로 분단의 현실을 직접 체감합니다." },
+    "stat1": "목표 참여 국가", "stat2": "목표 식재 그루", "stat3": "목표 참가 인원",
+    "compare": { "label": "Why PEACEWAY?", "title": "왜 PEACEWAY인가?", "hItem": "항목", "hRibbon": "임진각 리본 묶기", "hPaju": "PEACEWAY PAJU", "c11": "행위", "c12": "리본에 소원 작성", "c13": "꽃나무 직접 식재", "c21": "지속성", "c22": "바람에 날려감", "c23": "뿌리를 내리고 성장", "c31": "기록", "c32": "없음", "c33": "온라인 영구 등록 + 성장 추적", "c41": "교육", "c42": "단순 관람", "c43": "평화 역사 교육 + 지뢰 체험", "c51": "참여도", "c52": "수동적", "c53": "능동적 · 문화 체험 포함", "c61": "장소", "c62": "일반 관광지", "c63": "DMZ 민통선 농장 (비공개 지역)" },
+    "cta": { "title": "평화의 나무를 함께 심어주세요", "subtitle": "DMZ의 지뢰밭이 꽃밭으로 변하는 그 날까지.", "btnInquiry": "프로그램 예약 문의", "btnInstagram": "인스타그램 팔로우" }
+  },
+  "compare": { "quote": "\"리본은 바람에 날려가지만,<br>나무는 뿌리를 내립니다.\"" },
+  "about": {
+    "label": "About", "title": "왜 DMZ에 나무를 심는가?", "subtitle": "전 세계 분쟁 현장 위에 평화의 상징을 직접 심는다는 것. 그것이 PEACEWAY의 시작입니다.",
+    "calloutTitle": "🌿 파주 DMZ 평화 발걸음 농장",
+    "flow1": "지뢰밭", "flow2": "꽃밭", "flow3": "평화의 숲", "flow4": "세계 평화 명소",
+    "partnersTitle": "🤝 3자 파트너십",
+    "spaceTitle": "📍 공간 소개",
+    "partner1": { "name": "케이마인드", "role": "이정모 대표", "desc": "총괄 기획, 온라인 플랫폼 운영, DMZ 농장 소유 및 관리" },
+    "partner2": { "name": "벼꽃피는마을", "role": "최상일 대표", "desc": "오프라인 체험 공간 운영, 지역 농산물 재배, 문화 체험 프로그램" },
+    "partner3": { "name": "한국지뢰연구소", "role": "평화 역사 교육 파트너", "desc": "지뢰 교육 · 체험 프로그램 운영, 안전 관리 총괄" },
+    "calloutBody": "위성에서 보면 발자국 모양인 DMZ 토지에 '평화의 발걸음'을 남기는 상징적 공간. 민통선 안쪽, 일반인이 쉽게 접근할 수 없는 이곳에서 세계인이 나무를 심습니다.",
+    "spaceBody": "<strong>DMZ 평화 발걸음 농장</strong> — 경기도 파주시 민통선 내 위치. 군 허가 하에 운영되는 농경지로, 일반인 접근이 제한된 특수 지역입니다. 교통편: 파주 시내에서 차량 약 30분 소요.<br><br><strong>벼꽃피는마을</strong> — 파주시 소재 농촌 체험 공간. K-비빔밥, 자개 공예 등 문화 체험 프로그램이 진행되는 아늑한 마을 공간입니다."
+  },
+  "programs": {
+    "label": "Programs", "title": "🌳 체험 프로그램", "subtitle": "DMZ에서만 가능한, 세계 유일의 평화 관광 프로그램을 경험하세요.",
+    "treeTitle": "🌳 평화의 나무 심기", "treeBadge": "★ 핵심 프로그램", "treeLead": "세계 유일 — DMZ 토지에 직접 꽃나무를 심는 체험. 내 나무가 온라인에 영구 등록되고, 성장을 추적할 수 있습니다.",
+    "treeCalloutHtml": "<strong>이 프로그램이 특별한 이유 3가지</strong><br>🌍 <strong>세계 유일</strong> — DMZ 토지에 직접 나무를 심는 체험<br>📱 <strong>영구 기록</strong> — 온라인에서 내 나무의 성장을 추적<br>🇰🇷 <strong>역사적 의미</strong> — 남북정상회담 나무(모감주나무)를 DMZ에 식재",
+    "flowLabel": "체험 흐름", "flowT1": "나무 선택", "flowT2": "식재", "flowT3": "메시지 기록", "flowT4": "사진 촬영", "flowT5": "온라인 등록",
+    "thDuration": "소요시간", "thPeople": "인원", "thPlace": "장소", "treeDur": "약 60분", "treeNum": "10~30명", "treeLoc": "DMZ 평화 발걸음 농장",
+    "mineTitle": "💣 평화 역사 교육 프로그램 — 지뢰 교육 체험", "mineLead": "분단의 현실을 직접 체감하는 교육 프로그램. 안전한 지뢰 모형과 금속 탐지기로 평화의 의미를 배웁니다.",
+    "mineWarnHtml": "⚠️ <strong>안전 안내:</strong> 안전한 지뢰 모형을 교육용으로 사용합니다. 파트너: 한국지뢰연구소",
+    "mineF1": "DMZ 평화 역사 학습", "mineF2": "금속 탐지기 사용법", "mineF3": "탐지 체험", "mineF4": "지뢰 모형 관찰",
+    "mineTipHtml": "💡 <strong>핵심 동선:</strong> 평화 역사 교육 체험 직후 → 바로 옆에서 나무 심기 (전 세계 평화를 기원하며 꽃밭 만들기)",
+    "mineDur": "약 40분", "mineNum": "10~30명",
+    "cultureTitle": "🎨 문화 체험 (음식 · 공예)", "culture1": "K-비빔밥 셀프 체험", "culture1p": "파주 지역 농산물로 직접 만드는 비빔밥 체험. 신선한 재료를 직접 골라 나만의 비빔밥을 만들어 봅니다.", "culture1m1": "⏱ 약 40분", "culture1m2": "👥 10~30명", "culture1m3": "📍 벼꽃피는마을",
+    "culture2": "북한 음식 체험", "culture2p": "인조고기밥, 옥수수 떡 등 북한 음식을 직접 만들고 맛보는 특별한 체험. DMZ의 분단 현실을 음식을 통해 이해합니다.", "culture2m1": "⏱ 약 50분", "culture2m2": "👥 10~20명", "culture2m3": "📍 벼꽃피는마을",
+    "culture3": "자개 공예", "culture3p": "전통 자개 장식을 활용한 핸드폰 케이스, 열쇠고리, 손거울 만들기. 한국 전통 공예의 아름다움을 직접 체험합니다.", "culture3m1": "⏱ 약 40분", "culture3m2": "👥 10~20명", "culture3m3": "📍 벼꽃피는마을"
+  },
+  "journey": {
+    "label": "Journey", "title": "🗺️ 관광객 여정", "subtitle": "DMZ에서의 하루, 평화를 심는 여정.",
+    "s1h": "온라인 예약", "s1p": "프로그램 선택 및 희망 날짜 예약 신청", "s1m1": "🌐 온라인", "s1m2": "⏱ 사전",
+    "s2h": "평화 역사 교육 — 지뢰 체험", "s2p": "DMZ 역사 학습 + 금속 탐지기 체험 + 지뢰 모형 관찰", "s2m1": "📍 DMZ 농장", "s2m2": "⏱ 약 40분", "s2m3": "💡 교육",
+    "s3h": "평화의 나무 심기", "s3p": "꽃나무 선택 → 식재 → 메시지 기록 → 사진 촬영", "s3m1": "📍 DMZ 농장", "s3m2": "⏱ 약 60분", "s3m3": "🌳 핵심",
+    "s4h": "문화 체험", "s4p": "K-비빔밥 / 북한 음식 / 자개 공예 (택 1~2)", "s4m1": "📍 벼꽃피는마을", "s4m2": "⏱ 약 40~90분", "s4m3": "🎨 체험",
+    "s5h": "온라인 기록", "s5p": "나무 정보 + 평화 메시지 온라인 영구 등록", "s5m1": "📱 온라인", "s5m2": "⏱ 약 10분",
+    "s6h": "나무 성장 추적", "s6p": "귀국 후에도 내 나무의 성장 확인 (2단계 업데이트)", "s6m1": "🌐 온라인", "s6m2": "⏱ 지속", "s6m3": "🌱 성장",
+    "totalHtml": "🕐 전체 소요시간: <strong>약 4~5시간</strong> &nbsp;|&nbsp; 집합장소: 파주 지정 장소 &nbsp;|&nbsp; 준비물: 편한 복장, 모자",
+    "btnContact": "예약 문의하기"
+  },
+  "garden": {
+    "label": "Peace Garden", "title": "🌸 평화 꽃나무 도감", "subtitle": "DMZ 평화 정원에 식재되는 꽃나무들. 각각의 나무에는 평화의 이야기가 담겨 있습니다.",
+    "tree1h": "모감주나무", "tree1mean": "꽃말: 기다림, 소원", "tree1sea": "개화: 6~7월", "tree1peace": "남북정상회담 상징 나무",
+    "tree2h": "무궁화", "tree2mean": "꽃말: 일편단심", "tree2sea": "개화: 7~10월", "tree2peace": "대한민국 국화 — 불굴의 평화 의지",
+    "tree3h": "올리브나무", "tree3mean": "꽃말: 평화", "tree3sea": "개화: 5~6월", "tree3peace": "유엔 평화의 상징",
+    "tree4h": "백목련", "tree4mean": "꽃말: 숭고한 사랑", "tree4sea": "개화: 3~4월", "tree4peace": "순결과 새로운 시작",
+    "tree5h": "산수유", "tree5mean": "꽃말: 영원불변의 사랑", "tree5sea": "개화: 3~4월", "tree5peace": "가장 먼저 봄을 알리는 희망",
+    "tree6h": "이팝나무", "tree6mean": "꽃말: 영원한 사랑", "tree6sea": "개화: 5~6월", "tree6peace": "풍년을 기원하는 평화의 나무",
+    "calTitle": "📅 사계절 개화 캘린더", "calLead": "방문 시기에 따라 심을 수 있는 나무가 달라집니다.",
+    "m3": "3월", "m4": "4월", "m5": "5월", "m6": "6월", "m7": "7월", "m8": "8월", "m9": "9월", "m10": "10월", "m11": "11월", "m12": "12월", "m1": "1월", "m2": "2월",
+    "cal31": "백목련<br>산수유", "cal51": "올리브<br>이팝나무", "cal61": "모감주<br>올리브", "cal71": "모감주<br>무궁화", "cal81": "무궁화", "cal91": "무궁화",
+    "cal101": "무궁화<br>단풍", "cal111": "겨울 준비<br>식재 가능", "cal121": "동절기<br>휴식", "cal011": "동절기<br>휴식", "cal021": "봄 준비<br>식재 가능",
+    "ctaHtml": "💡 <strong>지금 방문하면?</strong> 현재 시기에 식재 가능한 나무와 개화 중인 꽃을 확인하고 <a href=\"contact.html\" style=\"color:var(--forest-light); font-weight:600;\">프로그램을 예약</a>하세요."
+  },
+  "contact": {
+    "label": "Contact", "title": "📬 문의 · 예약", "subtitle": "프로그램 예약 및 궁금하신 사항을 문의해 주세요. 2영업일 이내 회신드립니다.",
+    "form": {
+      "name": "이름 *", "email": "이메일 *", "phone": "연락처", "programs": "희망 프로그램 *", "date": "희망 날짜", "num": "인원수", "country": "국적", "note": "기타 문의사항",
+      "namePh": "이름을 입력해주세요", "emailPh": "email@example.com", "phonePh": "010-0000-0000", "numPh": "참가 인원", "countryPh": "국적을 입력해주세요", "notePh": "궁금하신 내용을 자유롭게 적어주세요",
+      "cbTree": "🌳 나무심기", "cbMine": "💣 평화역사(지뢰교육)", "cbBibim": "🍚 비빔밥", "cbNK": "🥟 북한음식", "cbCraft": "🎨 공예", "submit": "문의 접수하기", "footnote": "문의 접수 후 2영업일 이내 이메일로 회신드립니다"
+    },
+    "cardEmail": "이메일", "cardPhone": "전화", "cardPhoneP": "상담 전화번호 안내 예정", "cardKakao": "카카오톡 채널", "cardKakaoL": "PEACEWAY PAJU 채널 바로가기", "cardInsta": "인스타그램", "cardMap": "찾아오시는 길",
+    "cardMapHtml": "경기도 파주시 민통선 일원<br>상세 위치는 예약 확정 후 별도 안내",
+    "faqTitle": "❓ 자주 묻는 질문 (FAQ)",
+    "faq1q": "Q. 외국인도 참여할 수 있나요?", "faq1a": "네, 외국인 관광객을 위해 기획된 프로그램입니다. 다만 민통선 지역 특성상 사전 예약과 신분 확인이 필요합니다.",
+    "faq2q": "Q. 영어 통역이 제공되나요?", "faq2a": "기본 영어 안내가 제공되며, 단체 예약 시 전문 통역 서비스 배치가 가능합니다. AI 실시간 통번역 시스템도 도입 예정입니다.",
+    "faq3q": "Q. 참가비는 얼마인가요?", "faq3a": "프로그램 구성 및 인원에 따라 차등 적용됩니다. 문의 양식을 통해 상세 견적을 안내드립니다.",
+    "faq4q": "Q. 지뢰 교육 체험은 안전한가요?", "faq4a": "완전히 안전합니다. 교육용 지뢰 모형만 사용하며, 한국지뢰연구소 전문가가 안전을 관리합니다.",
+    "faq5q": "Q. 심은 나무를 나중에 확인할 수 있나요?", "faq5a": "네, 2단계에서 온라인 추적 시스템이 구축되면 GPS 위치와 성장 사진을 통해 내 나무를 확인하실 수 있습니다.",
+    "faq6q": "Q. 단체 예약도 가능한가요?", "faq6a": "네, 10명 이상 단체 예약을 환영합니다. 기업 워크숍, 학교 현장학습 등 맞춤 프로그램 구성이 가능합니다.",
+    "faq7q": "Q. 우천 시에도 진행하나요?", "faq7a": "경미한 비의 경우 우비를 준비하여 진행하며, 악천후 시에는 일정을 변경해 드립니다.",
+    "faq8q": "Q. 어린이도 참여할 수 있나요?", "faq8a": "만 7세 이상 어린이의 참여가 가능하며, 보호자 동반이 필요합니다.",
+    "faq9q": "Q. 주차는 어디에 하나요?", "faq9a": "체험 장소 인근 지정 주차장을 이용하실 수 있습니다. 상세 위치는 예약 확정 후 안내드립니다.",
+    "faq10q": "Q. 찾아가는 방법은?", "faq10a": "파주 시내에서 차량 약 30분 소요됩니다. 민통선 진입을 위해 사전 허가가 필요하므로, 예약 시 상세 교통편을 안내드립니다. 단체의 경우 셔틀 운행도 가능합니다."
+  },
+  "patent": {
+    "label": "Technology", "title": "🌐 AI 실시간 통번역 관광 플랫폼", "subtitle": "PEACEWAY PAJU가 준비하는 혁신 기술 — 언어 장벽 없는 평화 관광의 미래",
+    "badge": "특허 선출원 기술", "patentTitle": "AI 실시간 양방향 동시 통역 관광 가이드 플랫폼",
+    "patentEn": "Method and system for providing tourism information to foreign tourists in two directions using a group chat platform equipped with artificial intelligence interpretation and translation functions",
+    "calloutGoldHtml": "한 명의 가이드가 다수 국가 관광객을 대상으로, AI 실시간 양방향 동시 통역을 통해 각자의 모국어로 관광 안내를 제공하는 세계 최초의 그룹 관광 통번역 시스템입니다.",
+    "f1h": "실시간 양방향 통역", "f1p": "가이드의 한국어 안내가 각 관광객의 모국어로 실시간 텍스트 + 음성 변환",
+    "f2h": "다국어 그룹 채팅", "f2p": "관광객 간 자국어 채팅이 실시간으로 상호 번역되는 그룹 채팅방",
+    "f3h": "AI 에이전트 통역", "f3p": "GPT, Gemini 등 AI 엔진 기반 자가학습 통역 품질 최적화 시스템",
+    "f4h": "개인 단말기 연동", "f4p": "스마트폰 + 이어폰으로 개인별 모국어 안내 수신",
+    "flowSec": "시스템 운용 흐름",
+    "fl1": "가이드<br>한국어 안내", "fl2": "AI 에이전트<br>실시간 통역", "fl3": "그룹 채팅방<br>다국어 변환", "fl4": "관광객 단말기<br>모국어 수신", "fl5": "관광객 질문<br>한국어 역변환",
+    "downloadLabel": "앱 다운로드", "downloadAria": "iOS용 App Store와 Android용 Play 스토어 다운로드 링크",
+    "downloadLinkTitleApp": "iOS용 App Store 링크는 곧 안내 예정입니다", "downloadLinkTitlePlay": "Android용 Play 스토어 링크는 곧 안내 예정입니다",
+    "btnAppStoreName": "App Store", "btnAppStorePlatform": "iOS", "btnPlayStoreName": "Play 스토어", "btnPlayStorePlatform": "안드로이드",
+    "ariaAppStoreBtn": "iOS용 App Store", "ariaPlayStoreBtn": "Android용 Play 스토어",
+    "downloadPendingMsg": "준비중 입니다.",
+    "bottomHtml": "<strong>🌍 PEACEWAY PAJU × AI 통번역</strong><br>이 기술이 적용되면, DMZ 평화 관광 프로그램에 참여하는 30개국 이상의 관광객이 가이드 한 명의 안내만으로 각자의 모국어로 실시간 관광 정보를 받을 수 있습니다. 관광객 간의 국경을 넘는 실시간 대화도 가능해집니다."
+  }
+}

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ko" data-page="contact">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — PEACEWAY PAJU</title>
+<meta name="description" content="프로그램 예약·문의, FAQ — PEACEWAY PAJU">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/base.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">PEACE<span>WAY</span></a>
+    <div class="nav-end">
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" data-i18n="nav.home">홈</a></li>
+        <li><a href="about.html" data-i18n="nav.about">소개</a></li>
+        <li><a href="programs.html" data-i18n="nav.programs">프로그램</a></li>
+        <li><a href="journey.html" data-i18n="nav.journey">여정</a></li>
+        <li><a href="garden.html" data-i18n="nav.garden">평화 정원</a></li>
+        <li><a href="contact.html" data-i18n="nav.contact">문의</a></li>
+        <li><a href="patent.html" data-i18n="nav.patent">AI 통번역</a></li>
+      </ul>
+      <div class="lang-switcher" id="langSwitcher">
+        <button type="button" class="lang-current" id="langCurrent" aria-haspopup="true" aria-expanded="false">KO</button>
+        <ul class="lang-dropdown" id="langDropdown">
+          <li data-lang="ko" role="option" data-i18n="lang.ko">한국어</li>
+          <li data-lang="en" role="option" data-i18n="lang.en">English</li>
+          <li data-lang="ja" role="option" data-i18n="lang.ja">日本語</li>
+          <li data-lang="zh-CN" role="option" data-i18n="lang.zhCN">简体中文</li>
+          <li data-lang="zh-TW" role="option" data-i18n="lang.zhTW">繁體中文</li>
+        </ul>
+      </div>
+      <button type="button" class="nav-mobile-toggle" id="mobileToggle" data-i18n-aria="nav.ariaMenu" aria-label="메뉴">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<section class="contact-section">
+  <div class="container">
+    <span class="section-label" data-i18n="contact.label">Contact</span>
+    <h2 class="section-title" data-i18n="contact.title">📬 문의 · 예약</h2>
+    <p class="section-subtitle" data-i18n="contact.subtitle">프로그램 예약 및 궁금하신 사항을 문의해 주세요. 2영업일 이내 회신드립니다.</p>
+
+    <div class="contact-grid fade-in">
+      <div class="contact-form">
+        <div class="form-group">
+          <label data-i18n="contact.form.name">이름 *</label>
+          <input type="text" data-i18n-placeholder="contact.form.namePh" placeholder="이름을 입력해주세요">
+        </div>
+        <div class="form-group">
+          <label data-i18n="contact.form.email">이메일 *</label>
+          <input type="email" data-i18n-placeholder="contact.form.emailPh" placeholder="email@example.com">
+        </div>
+        <div class="form-group">
+          <label data-i18n="contact.form.phone">연락처</label>
+          <input type="tel" data-i18n-placeholder="contact.form.phonePh" placeholder="010-0000-0000">
+        </div>
+        <div class="form-group">
+          <label data-i18n="contact.form.programs">희망 프로그램 *</label>
+          <div class="checkbox-group">
+            <label><input type="checkbox"> <span data-i18n="contact.form.cbTree">🌳 나무심기</span></label>
+            <label><input type="checkbox"> <span data-i18n="contact.form.cbMine">💣 평화역사(지뢰교육)</span></label>
+            <label><input type="checkbox"> <span data-i18n="contact.form.cbBibim">🍚 비빔밥</span></label>
+            <label><input type="checkbox"> <span data-i18n="contact.form.cbNK">🥟 북한음식</span></label>
+            <label><input type="checkbox"> <span data-i18n="contact.form.cbCraft">🎨 공예</span></label>
+          </div>
+        </div>
+        <div class="form-group">
+          <label data-i18n="contact.form.date">희망 날짜</label>
+          <input type="date">
+        </div>
+        <div class="form-group">
+          <label data-i18n="contact.form.num">인원수</label>
+          <input type="number" data-i18n-placeholder="contact.form.numPh" placeholder="참가 인원" min="1">
+        </div>
+        <div class="form-group">
+          <label data-i18n="contact.form.country">국적</label>
+          <input type="text" data-i18n-placeholder="contact.form.countryPh" placeholder="국적을 입력해주세요">
+        </div>
+        <div class="form-group">
+          <label data-i18n="contact.form.note">기타 문의사항</label>
+          <textarea data-i18n-placeholder="contact.form.notePh" placeholder="궁금하신 내용을 자유롭게 적어주세요"></textarea>
+        </div>
+        <button type="button" class="btn btn-primary" style="width:100%;" data-i18n="contact.form.submit">문의 접수하기</button>
+        <p style="font-size:0.78rem; color:var(--text-light); margin-top:12px; text-align:center;" data-i18n="contact.form.footnote">
+          문의 접수 후 2영업일 이내 이메일로 회신드립니다
+        </p>
+      </div>
+      <div class="contact-info">
+        <div class="contact-card">
+          <div class="icon">📧</div>
+          <h4 data-i18n="contact.cardEmail">이메일</h4>
+          <p><a href="mailto:contact@peaceway.kr">contact@peaceway.kr</a></p>
+        </div>
+        <div class="contact-card">
+          <div class="icon">📞</div>
+          <h4 data-i18n="contact.cardPhone">전화</h4>
+          <p data-i18n="contact.cardPhoneP">상담 전화번호 안내 예정</p>
+        </div>
+        <div class="contact-card">
+          <div class="icon">💬</div>
+          <h4 data-i18n="contact.cardKakao">카카오톡 채널</h4>
+          <p><a href="#" data-i18n="contact.cardKakaoL">PEACEWAY PAJU 채널 바로가기</a></p>
+        </div>
+        <div class="contact-card">
+          <div class="icon">📸</div>
+          <h4 data-i18n="contact.cardInsta">인스타그램</h4>
+          <p><a href="#">@peaceway_paju</a></p>
+        </div>
+        <div class="contact-card" style="background:var(--forest); color:var(--white);">
+          <div class="icon">🗺️</div>
+          <h4 style="color:var(--sprout-light);" data-i18n="contact.cardMap">찾아오시는 길</h4>
+          <p style="color:rgba(255,255,255,0.7);" data-i18n-html="contact.cardMapHtml">경기도 파주시 민통선 일원<br>상세 위치는 예약 확정 후 별도 안내</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <h3 style="font-size:1.2rem; color:var(--forest); margin-bottom:24px;" data-i18n="contact.faqTitle">❓ 자주 묻는 질문 (FAQ)</h3>
+    <div class="faq-list fade-in">
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)"><span data-i18n="contact.faq1q">Q. 외국인도 참여할 수 있나요?</span> <span class="arrow">▼</span></div>
+        <div class="faq-a"><div class="faq-a-inner" data-i18n="contact.faq1a">네, 외국인 관광객을 위해 기획된 프로그램입니다. 다만 민통선 지역 특성상 사전 예약과 신분 확인이 필요합니다.</div></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)"><span data-i18n="contact.faq2q">Q. 영어 통역이 제공되나요?</span> <span class="arrow">▼</span></div>
+        <div class="faq-a"><div class="faq-a-inner" data-i18n="contact.faq2a">기본 영어 안내가 제공되며, 단체 예약 시 전문 통역 서비스 배치가 가능합니다. AI 실시간 통번역 시스템도 도입 예정입니다.</div></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)"><span data-i18n="contact.faq3q">Q. 참가비는 얼마인가요?</span> <span class="arrow">▼</span></div>
+        <div class="faq-a"><div class="faq-a-inner" data-i18n="contact.faq3a">프로그램 구성 및 인원에 따라 차등 적용됩니다. 문의 양식을 통해 상세 견적을 안내드립니다.</div></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)"><span data-i18n="contact.faq4q">Q. 지뢰 교육 체험은 안전한가요?</span> <span class="arrow">▼</span></div>
+        <div class="faq-a"><div class="faq-a-inner" data-i18n="contact.faq4a">완전히 안전합니다. 교육용 지뢰 모형만 사용하며, 한국지뢰연구소 전문가가 안전을 관리합니다.</div></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)"><span data-i18n="contact.faq5q">Q. 심은 나무를 나중에 확인할 수 있나요?</span> <span class="arrow">▼</span></div>
+        <div class="faq-a"><div class="faq-a-inner" data-i18n="contact.faq5a">네, 2단계에서 온라인 추적 시스템이 구축되면 GPS 위치와 성장 사진을 통해 내 나무를 확인하실 수 있습니다.</div></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)"><span data-i18n="contact.faq6q">Q. 단체 예약도 가능한가요?</span> <span class="arrow">▼</span></div>
+        <div class="faq-a"><div class="faq-a-inner" data-i18n="contact.faq6a">네, 10명 이상 단체 예약을 환영합니다. 기업 워크숍, 학교 현장학습 등 맞춤 프로그램 구성이 가능합니다.</div></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)"><span data-i18n="contact.faq7q">Q. 우천 시에도 진행하나요?</span> <span class="arrow">▼</span></div>
+        <div class="faq-a"><div class="faq-a-inner" data-i18n="contact.faq7a">경미한 비의 경우 우비를 준비하여 진행하며, 악천후 시에는 일정을 변경해 드립니다.</div></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)"><span data-i18n="contact.faq8q">Q. 어린이도 참여할 수 있나요?</span> <span class="arrow">▼</span></div>
+        <div class="faq-a"><div class="faq-a-inner" data-i18n="contact.faq8a">만 7세 이상 어린이의 참여가 가능하며, 보호자 동반이 필요합니다.</div></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)"><span data-i18n="contact.faq9q">Q. 주차는 어디에 하나요?</span> <span class="arrow">▼</span></div>
+        <div class="faq-a"><div class="faq-a-inner" data-i18n="contact.faq9a">체험 장소 인근 지정 주차장을 이용하실 수 있습니다. 상세 위치는 예약 확정 후 안내드립니다.</div></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)"><span data-i18n="contact.faq10q">Q. 찾아가는 방법은?</span> <span class="arrow">▼</span></div>
+        <div class="faq-a"><div class="faq-a-inner" data-i18n="contact.faq10a">파주 시내에서 차량 약 30분 소요됩니다. 민통선 진입을 위해 사전 허가가 필요하므로, 예약 시 상세 교통편을 안내드립니다. 단체의 경우 셔틀 운행도 가능합니다.</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-logo">PEACEWAY PAJU</div>
+  <p data-i18n="footer.copyright">© 2026 PEACEWAY PAJU</p>
+  <p data-i18n="footer.company">케이마인드 주식회사 (K-MIND Co., Ltd.)</p>
+  <p style="margin-top:8px;" data-i18n="footer.location">경기도 파주시 · contact@peaceway.kr</p>
+  <div class="footer-links">
+    <a href="about.html" data-i18n="nav.about">소개</a>
+    <a href="programs.html" data-i18n="nav.programs">프로그램</a>
+    <a href="garden.html" data-i18n="nav.garden">평화 정원</a>
+    <a href="contact.html" data-i18n="nav.contact">문의</a>
+    <a href="patent.html" data-i18n="nav.patent">AI 통번역</a>
+  </div>
+</footer>
+
+<script src="js/i18n.js" defer></script>
+<script src="js/main.js" defer></script>
+</body>
+</html>

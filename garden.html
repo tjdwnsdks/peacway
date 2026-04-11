@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ko" data-page="garden">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Peace Garden — PEACEWAY PAJU</title>
+<meta name="description" content="평화 꽃나무 도감, 사계절 개화 캘린더 — PEACEWAY PAJU">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/base.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">PEACE<span>WAY</span></a>
+    <div class="nav-end">
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" data-i18n="nav.home">홈</a></li>
+        <li><a href="about.html" data-i18n="nav.about">소개</a></li>
+        <li><a href="programs.html" data-i18n="nav.programs">프로그램</a></li>
+        <li><a href="journey.html" data-i18n="nav.journey">여정</a></li>
+        <li><a href="garden.html" data-i18n="nav.garden">평화 정원</a></li>
+        <li><a href="contact.html" data-i18n="nav.contact">문의</a></li>
+        <li><a href="patent.html" data-i18n="nav.patent">AI 통번역</a></li>
+      </ul>
+      <div class="lang-switcher" id="langSwitcher">
+        <button type="button" class="lang-current" id="langCurrent" aria-haspopup="true" aria-expanded="false">KO</button>
+        <ul class="lang-dropdown" id="langDropdown">
+          <li data-lang="ko" role="option" data-i18n="lang.ko">한국어</li>
+          <li data-lang="en" role="option" data-i18n="lang.en">English</li>
+          <li data-lang="ja" role="option" data-i18n="lang.ja">日本語</li>
+          <li data-lang="zh-CN" role="option" data-i18n="lang.zhCN">简体中文</li>
+          <li data-lang="zh-TW" role="option" data-i18n="lang.zhTW">繁體中文</li>
+        </ul>
+      </div>
+      <button type="button" class="nav-mobile-toggle" id="mobileToggle" data-i18n-aria="nav.ariaMenu" aria-label="메뉴">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<section>
+  <div class="container">
+    <span class="section-label" data-i18n="garden.label">Peace Garden</span>
+    <h2 class="section-title" data-i18n="garden.title">🌸 평화 꽃나무 도감</h2>
+    <p class="section-subtitle" data-i18n="garden.subtitle">DMZ 평화 정원에 식재되는 꽃나무들. 각각의 나무에는 평화의 이야기가 담겨 있습니다.</p>
+
+    <div class="tree-grid fade-in">
+      <div class="tree-card">
+        <div class="tree-card-top" style="background:linear-gradient(135deg,#FFF8DC,#FFE4B5);">🌼</div>
+        <div class="tree-card-body">
+          <h4 data-i18n="garden.tree1h">모감주나무</h4>
+          <div class="en">Koelreuteria paniculata</div>
+          <div class="meaning" data-i18n="garden.tree1mean">꽃말: 기다림, 소원</div>
+          <div class="season" data-i18n="garden.tree1sea">개화: 6~7월</div>
+          <div class="peace-meaning" data-i18n="garden.tree1peace">남북정상회담 상징 나무</div>
+        </div>
+      </div>
+      <div class="tree-card">
+        <div class="tree-card-top" style="background:linear-gradient(135deg,#FFE4E1,#FFB6C1);">🌺</div>
+        <div class="tree-card-body">
+          <h4 data-i18n="garden.tree2h">무궁화</h4>
+          <div class="en">Hibiscus syriacus</div>
+          <div class="meaning" data-i18n="garden.tree2mean">꽃말: 일편단심</div>
+          <div class="season" data-i18n="garden.tree2sea">개화: 7~10월</div>
+          <div class="peace-meaning" data-i18n="garden.tree2peace">대한민국 국화 — 불굴의 평화 의지</div>
+        </div>
+      </div>
+      <div class="tree-card">
+        <div class="tree-card-top" style="background:linear-gradient(135deg,#F0FFF0,#C1FFC1);">🫒</div>
+        <div class="tree-card-body">
+          <h4 data-i18n="garden.tree3h">올리브나무</h4>
+          <div class="en">Olea europaea</div>
+          <div class="meaning" data-i18n="garden.tree3mean">꽃말: 평화</div>
+          <div class="season" data-i18n="garden.tree3sea">개화: 5~6월</div>
+          <div class="peace-meaning" data-i18n="garden.tree3peace">유엔 평화의 상징</div>
+        </div>
+      </div>
+      <div class="tree-card">
+        <div class="tree-card-top" style="background:linear-gradient(135deg,#FFFFF0,#FFFACD);">🤍</div>
+        <div class="tree-card-body">
+          <h4 data-i18n="garden.tree4h">백목련</h4>
+          <div class="en">Magnolia denudata</div>
+          <div class="meaning" data-i18n="garden.tree4mean">꽃말: 숭고한 사랑</div>
+          <div class="season" data-i18n="garden.tree4sea">개화: 3~4월</div>
+          <div class="peace-meaning" data-i18n="garden.tree4peace">순결과 새로운 시작</div>
+        </div>
+      </div>
+      <div class="tree-card">
+        <div class="tree-card-top" style="background:linear-gradient(135deg,#FFFACD,#FFD700);">💛</div>
+        <div class="tree-card-body">
+          <h4 data-i18n="garden.tree5h">산수유</h4>
+          <div class="en">Cornus officinalis</div>
+          <div class="meaning" data-i18n="garden.tree5mean">꽃말: 영원불변의 사랑</div>
+          <div class="season" data-i18n="garden.tree5sea">개화: 3~4월</div>
+          <div class="peace-meaning" data-i18n="garden.tree5peace">가장 먼저 봄을 알리는 희망</div>
+        </div>
+      </div>
+      <div class="tree-card">
+        <div class="tree-card-top" style="background:linear-gradient(135deg,#F5FFFA,#E0FFE0);">🌿</div>
+        <div class="tree-card-body">
+          <h4 data-i18n="garden.tree6h">이팝나무</h4>
+          <div class="en">Chionanthus retusus</div>
+          <div class="meaning" data-i18n="garden.tree6mean">꽃말: 영원한 사랑</div>
+          <div class="season" data-i18n="garden.tree6sea">개화: 5~6월</div>
+          <div class="peace-meaning" data-i18n="garden.tree6peace">풍년을 기원하는 평화의 나무</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <h3 style="font-size:1.2rem; color:var(--forest); margin-bottom:16px;" data-i18n="garden.calTitle">📅 사계절 개화 캘린더</h3>
+    <p style="font-size:0.88rem; color:var(--text-light); margin-bottom:24px;" data-i18n="garden.calLead">방문 시기에 따라 심을 수 있는 나무가 달라집니다.</p>
+
+    <div class="calendar-grid fade-in">
+      <div class="cal-month"><div class="month" data-i18n="garden.m3">3월</div><div class="bloom">🤍💛</div><div class="name" data-i18n-html="garden.cal31">백목련<br>산수유</div></div>
+      <div class="cal-month"><div class="month" data-i18n="garden.m4">4월</div><div class="bloom">🤍💛</div><div class="name" data-i18n-html="garden.cal31">백목련<br>산수유</div></div>
+      <div class="cal-month"><div class="month" data-i18n="garden.m5">5월</div><div class="bloom">🫒🌿</div><div class="name" data-i18n-html="garden.cal51">올리브<br>이팝나무</div></div>
+      <div class="cal-month"><div class="month" data-i18n="garden.m6">6월</div><div class="bloom">🌼🫒</div><div class="name" data-i18n-html="garden.cal61">모감주<br>올리브</div></div>
+      <div class="cal-month"><div class="month" data-i18n="garden.m7">7월</div><div class="bloom">🌼🌺</div><div class="name" data-i18n-html="garden.cal71">모감주<br>무궁화</div></div>
+      <div class="cal-month"><div class="month" data-i18n="garden.m8">8월</div><div class="bloom">🌺</div><div class="name" data-i18n-html="garden.cal81">무궁화</div></div>
+      <div class="cal-month"><div class="month" data-i18n="garden.m9">9월</div><div class="bloom">🌺</div><div class="name" data-i18n-html="garden.cal91">무궁화</div></div>
+      <div class="cal-month"><div class="month" data-i18n="garden.m10">10월</div><div class="bloom">🌺🍂</div><div class="name" data-i18n-html="garden.cal101">무궁화<br>단풍</div></div>
+      <div class="cal-month"><div class="month" data-i18n="garden.m11">11월</div><div class="bloom">🍂</div><div class="name" data-i18n-html="garden.cal111">겨울 준비<br>식재 가능</div></div>
+      <div class="cal-month"><div class="month" data-i18n="garden.m12">12월</div><div class="bloom">❄️</div><div class="name" data-i18n-html="garden.cal121">동절기<br>휴식</div></div>
+      <div class="cal-month"><div class="month" data-i18n="garden.m1">1월</div><div class="bloom">❄️</div><div class="name" data-i18n-html="garden.cal011">동절기<br>휴식</div></div>
+      <div class="cal-month"><div class="month" data-i18n="garden.m2">2월</div><div class="bloom">🌱</div><div class="name" data-i18n-html="garden.cal021">봄 준비<br>식재 가능</div></div>
+    </div>
+
+    <div class="callout" style="margin-top:24px;" data-i18n-html="garden.ctaHtml">
+      💡 <strong>지금 방문하면?</strong> 현재 시기에 식재 가능한 나무와 개화 중인 꽃을 확인하고 <a href="contact.html" style="color:var(--forest-light); font-weight:600;">프로그램을 예약</a>하세요.
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-logo">PEACEWAY PAJU</div>
+  <p data-i18n="footer.copyright">© 2026 PEACEWAY PAJU</p>
+  <p data-i18n="footer.company">케이마인드 주식회사 (K-MIND Co., Ltd.)</p>
+  <p style="margin-top:8px;" data-i18n="footer.location">경기도 파주시 · contact@peaceway.kr</p>
+  <div class="footer-links">
+    <a href="about.html" data-i18n="nav.about">소개</a>
+    <a href="programs.html" data-i18n="nav.programs">프로그램</a>
+    <a href="garden.html" data-i18n="nav.garden">평화 정원</a>
+    <a href="contact.html" data-i18n="nav.contact">문의</a>
+    <a href="patent.html" data-i18n="nav.patent">AI 통번역</a>
+  </div>
+</footer>
+
+<script src="js/i18n.js" defer></script>
+<script src="js/main.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ko" data-page="journey">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Journey — PEACEWAY PAJU</title>
+<meta name="description" content="관광객 여정, 체험 동선, 소요 시간 안내 — PEACEWAY PAJU">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/base.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">PEACE<span>WAY</span></a>
+    <div class="nav-end">
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" data-i18n="nav.home">홈</a></li>
+        <li><a href="about.html" data-i18n="nav.about">소개</a></li>
+        <li><a href="programs.html" data-i18n="nav.programs">프로그램</a></li>
+        <li><a href="journey.html" data-i18n="nav.journey">여정</a></li>
+        <li><a href="garden.html" data-i18n="nav.garden">평화 정원</a></li>
+        <li><a href="contact.html" data-i18n="nav.contact">문의</a></li>
+        <li><a href="patent.html" data-i18n="nav.patent">AI 통번역</a></li>
+      </ul>
+      <div class="lang-switcher" id="langSwitcher">
+        <button type="button" class="lang-current" id="langCurrent" aria-haspopup="true" aria-expanded="false">KO</button>
+        <ul class="lang-dropdown" id="langDropdown">
+          <li data-lang="ko" role="option" data-i18n="lang.ko">한국어</li>
+          <li data-lang="en" role="option" data-i18n="lang.en">English</li>
+          <li data-lang="ja" role="option" data-i18n="lang.ja">日本語</li>
+          <li data-lang="zh-CN" role="option" data-i18n="lang.zhCN">简体中文</li>
+          <li data-lang="zh-TW" role="option" data-i18n="lang.zhTW">繁體中文</li>
+        </ul>
+      </div>
+      <button type="button" class="nav-mobile-toggle" id="mobileToggle" data-i18n-aria="nav.ariaMenu" aria-label="메뉴">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<section class="journey-section">
+  <div class="container">
+    <span class="section-label" data-i18n="journey.label">Journey</span>
+    <h2 class="section-title" data-i18n="journey.title">🗺️ 관광객 여정</h2>
+    <p class="section-subtitle" data-i18n="journey.subtitle">DMZ에서의 하루, 평화를 심는 여정.</p>
+
+    <div class="journey-timeline fade-in">
+      <div class="journey-step">
+        <div class="journey-step-num">①</div>
+        <div class="journey-step-content">
+          <h4 data-i18n="journey.s1h">온라인 예약</h4>
+          <p data-i18n="journey.s1p">프로그램 선택 및 희망 날짜 예약 신청</p>
+          <div class="meta"><span data-i18n="journey.s1m1">🌐 온라인</span><span data-i18n="journey.s1m2">⏱ 사전</span></div>
+        </div>
+      </div>
+      <div class="journey-step">
+        <div class="journey-step-num">②</div>
+        <div class="journey-step-content">
+          <h4 data-i18n="journey.s2h">평화 역사 교육 — 지뢰 체험</h4>
+          <p data-i18n="journey.s2p">DMZ 역사 학습 + 금속 탐지기 체험 + 지뢰 모형 관찰</p>
+          <div class="meta"><span data-i18n="journey.s2m1">📍 DMZ 농장</span><span data-i18n="journey.s2m2">⏱ 약 40분</span><span data-i18n="journey.s2m3">💡 교육</span></div>
+        </div>
+      </div>
+      <div class="journey-step">
+        <div class="journey-step-num">③</div>
+        <div class="journey-step-content">
+          <h4 data-i18n="journey.s3h">평화의 나무 심기</h4>
+          <p data-i18n="journey.s3p">꽃나무 선택 → 식재 → 메시지 기록 → 사진 촬영</p>
+          <div class="meta"><span data-i18n="journey.s3m1">📍 DMZ 농장</span><span data-i18n="journey.s3m2">⏱ 약 60분</span><span data-i18n="journey.s3m3">🌳 핵심</span></div>
+        </div>
+      </div>
+      <div class="journey-step">
+        <div class="journey-step-num">④</div>
+        <div class="journey-step-content">
+          <h4 data-i18n="journey.s4h">문화 체험</h4>
+          <p data-i18n="journey.s4p">K-비빔밥 / 북한 음식 / 자개 공예 (택 1~2)</p>
+          <div class="meta"><span data-i18n="journey.s4m1">📍 벼꽃피는마을</span><span data-i18n="journey.s4m2">⏱ 약 40~90분</span><span data-i18n="journey.s4m3">🎨 체험</span></div>
+        </div>
+      </div>
+      <div class="journey-step">
+        <div class="journey-step-num">⑤</div>
+        <div class="journey-step-content">
+          <h4 data-i18n="journey.s5h">온라인 기록</h4>
+          <p data-i18n="journey.s5p">나무 정보 + 평화 메시지 온라인 영구 등록</p>
+          <div class="meta"><span data-i18n="journey.s5m1">📱 온라인</span><span data-i18n="journey.s5m2">⏱ 약 10분</span></div>
+        </div>
+      </div>
+      <div class="journey-step">
+        <div class="journey-step-num">⑥</div>
+        <div class="journey-step-content">
+          <h4 data-i18n="journey.s6h">나무 성장 추적</h4>
+          <p data-i18n="journey.s6p">귀국 후에도 내 나무의 성장 확인 (2단계 업데이트)</p>
+          <div class="meta"><span data-i18n="journey.s6m1">🌐 온라인</span><span data-i18n="journey.s6m2">⏱ 지속</span><span data-i18n="journey.s6m3">🌱 성장</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="journey-total fade-in">
+      <p data-i18n-html="journey.totalHtml">🕐 전체 소요시간: <strong>약 4~5시간</strong> &nbsp;|&nbsp; 집합장소: 파주 지정 장소 &nbsp;|&nbsp; 준비물: 편한 복장, 모자</p>
+    </div>
+
+    <div style="text-align:center; margin-top:32px;">
+      <a href="contact.html" class="btn btn-primary" data-i18n="journey.btnContact">예약 문의하기</a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-logo">PEACEWAY PAJU</div>
+  <p data-i18n="footer.copyright">© 2026 PEACEWAY PAJU</p>
+  <p data-i18n="footer.company">케이마인드 주식회사 (K-MIND Co., Ltd.)</p>
+  <p style="margin-top:8px;" data-i18n="footer.location">경기도 파주시 · contact@peaceway.kr</p>
+  <div class="footer-links">
+    <a href="about.html" data-i18n="nav.about">소개</a>
+    <a href="programs.html" data-i18n="nav.programs">프로그램</a>
+    <a href="garden.html" data-i18n="nav.garden">평화 정원</a>
+    <a href="contact.html" data-i18n="nav.contact">문의</a>
+    <a href="patent.html" data-i18n="nav.patent">AI 통번역</a>
+  </div>
+</footer>
+
+<script src="js/i18n.js" defer></script>
+<script src="js/main.js" defer></script>
+</body>
+</html>
