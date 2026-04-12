@@ -22,6 +22,11 @@
     return cur;
   }
 
+  /** contact-form.js 등 스크립트용: 현재 로드된 locale JSON에서 점 경로 문자열 조회 */
+  window.peacewayT = function(key) {
+    return '';
+  };
+
   function ensureFallbackDefaults() {
     document.querySelectorAll('[data-i18n]').forEach(function(el) {
       if (el.dataset.i18nDefault === undefined) {
@@ -70,6 +75,13 @@
   }
 
   function applyTranslations(dict) {
+    window.peacewayT = function(key) {
+      if (!key) return '';
+      const v = getNested(dict, key);
+      if (v === undefined || v === null) return '';
+      return String(v);
+    };
+
     ensureFallbackDefaults();
 
     document.querySelectorAll('[data-i18n]').forEach(function(el) {

@@ -56,50 +56,55 @@
     <p class="section-subtitle" data-i18n="contact.subtitle">프로그램 예약 및 궁금하신 사항을 문의해 주세요. 2영업일 이내 회신드립니다.</p>
 
     <div class="contact-grid fade-in">
-      <div class="contact-form">
+      <form class="contact-form" novalidate>
         <div class="form-group">
-          <label data-i18n="contact.form.name">이름 *</label>
-          <input type="text" data-i18n-placeholder="contact.form.namePh" placeholder="이름을 입력해주세요">
+          <label for="contactName" data-i18n="contact.form.name">이름 *</label>
+          <input type="text" id="contactName" name="name" maxlength="120" autocomplete="name" data-i18n-placeholder="contact.form.namePh" placeholder="이름을 입력해주세요">
         </div>
         <div class="form-group">
-          <label data-i18n="contact.form.email">이메일 *</label>
-          <input type="email" data-i18n-placeholder="contact.form.emailPh" placeholder="email@example.com">
+          <label for="contactEmail" data-i18n="contact.form.email">이메일 *</label>
+          <input type="email" id="contactEmail" name="email" maxlength="254" autocomplete="email" data-i18n-placeholder="contact.form.emailPh" placeholder="email@example.com">
         </div>
         <div class="form-group">
-          <label data-i18n="contact.form.phone">연락처</label>
-          <input type="tel" data-i18n-placeholder="contact.form.phonePh" placeholder="010-0000-0000">
+          <label for="contactPhone" data-i18n="contact.form.phone">연락처</label>
+          <input type="tel" id="contactPhone" name="phone" maxlength="80" autocomplete="tel" data-i18n-placeholder="contact.form.phonePh" placeholder="010-0000-0000">
         </div>
         <div class="form-group">
           <label data-i18n="contact.form.programs">희망 프로그램 *</label>
-          <div class="checkbox-group">
-            <label><input type="checkbox"> <span data-i18n="contact.form.cbTree">🌳 나무심기</span></label>
-            <label><input type="checkbox"> <span data-i18n="contact.form.cbMine">💣 평화역사(지뢰교육)</span></label>
-            <label><input type="checkbox"> <span data-i18n="contact.form.cbBibim">🍚 비빔밥</span></label>
-            <label><input type="checkbox"> <span data-i18n="contact.form.cbNK">🥟 북한음식</span></label>
-            <label><input type="checkbox"> <span data-i18n="contact.form.cbCraft">🎨 공예</span></label>
+          <div class="checkbox-group" role="group" aria-label="Programs">
+            <label><input type="checkbox" name="program" value="tree"> <span data-i18n="contact.form.cbTree">🌳 나무심기</span></label>
+            <label><input type="checkbox" name="program" value="mine"> <span data-i18n="contact.form.cbMine">💣 평화역사(지뢰교육)</span></label>
+            <label><input type="checkbox" name="program" value="bibim"> <span data-i18n="contact.form.cbBibim">🍚 비빔밥</span></label>
+            <label><input type="checkbox" name="program" value="nk"> <span data-i18n="contact.form.cbNK">🥟 북한음식</span></label>
+            <label><input type="checkbox" name="program" value="craft"> <span data-i18n="contact.form.cbCraft">🎨 공예</span></label>
           </div>
         </div>
         <div class="form-group">
-          <label data-i18n="contact.form.date">희망 날짜</label>
-          <input type="date">
+          <label for="contactDate" data-i18n="contact.form.date">희망 날짜</label>
+          <input type="date" id="contactDate" name="preferredDate">
         </div>
         <div class="form-group">
-          <label data-i18n="contact.form.num">인원수</label>
-          <input type="number" data-i18n-placeholder="contact.form.numPh" placeholder="참가 인원" min="1">
+          <label for="contactPartySize" data-i18n="contact.form.num">인원수</label>
+          <input type="number" id="contactPartySize" name="partySize" min="1" data-i18n-placeholder="contact.form.numPh" placeholder="참가 인원">
         </div>
         <div class="form-group">
-          <label data-i18n="contact.form.country">국적</label>
-          <input type="text" data-i18n-placeholder="contact.form.countryPh" placeholder="국적을 입력해주세요">
+          <label for="contactCountry" data-i18n="contact.form.country">국적</label>
+          <input type="text" id="contactCountry" name="nationality" maxlength="80" autocomplete="country-name" data-i18n-placeholder="contact.form.countryPh" placeholder="국적을 입력해주세요">
         </div>
         <div class="form-group">
-          <label data-i18n="contact.form.note">기타 문의사항</label>
-          <textarea data-i18n-placeholder="contact.form.notePh" placeholder="궁금하신 내용을 자유롭게 적어주세요"></textarea>
+          <label for="contactMessage" data-i18n="contact.form.note">기타 문의사항</label>
+          <textarea id="contactMessage" name="message" maxlength="8000" data-i18n-placeholder="contact.form.notePh" placeholder="궁금하신 내용을 자유롭게 적어주세요"></textarea>
         </div>
-        <button type="button" class="btn btn-primary" style="width:100%;" data-i18n="contact.form.submit">문의 접수하기</button>
+        <div class="contact-form-honeypot" aria-hidden="true">
+          <label for="contactWebsite">Website</label>
+          <input type="text" id="contactWebsite" name="website" tabindex="-1" autocomplete="off">
+        </div>
+        <div id="contactFormFeedback" class="contact-form-feedback" role="status" aria-live="polite" hidden></div>
+        <button type="submit" class="btn btn-primary" style="width:100%;" id="contactFormSubmit" data-i18n="contact.form.submit">문의 접수하기</button>
         <p style="font-size:0.78rem; color:var(--text-light); margin-top:12px; text-align:center;" data-i18n="contact.form.footnote">
           문의 접수 후 2영업일 이내 이메일로 회신드립니다
         </p>
-      </div>
+      </form>
       <div class="contact-info">
         <div class="contact-card">
           <div class="icon">📧</div>
@@ -193,5 +198,6 @@
 
 <script src="js/i18n.js" defer></script>
 <script src="js/main.js" defer></script>
+<script src="js/contact-form.js" defer></script>
 </body>
 </html>

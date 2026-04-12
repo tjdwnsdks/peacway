@@ -302,6 +302,17 @@
       "submit": "提交咨询",
       "footnote": "提交后，我们将在 2 个工作日内通过电子邮件回复"
     },
+    "formFeedback": {
+      "valName": "请输入至少 2 个字符的姓名。",
+      "valEmail": "请输入有效的电子邮箱。",
+      "valPrograms": "请至少选择一项意向项目。",
+      "valMessage": "如填写「其他咨询事项」，请至少输入 10 个字符。",
+      "sending": "发送中…",
+      "success": "我们已收到您的咨询，将尽快与您联系。",
+      "errorNetwork": "网络错误，请稍后重试。",
+      "errorServer": "发送失败，请稍后重试或通过邮件联系我们。",
+      "errorBadRequest": "请检查您填写的内容。"
+    },
     "cardEmail": "电子邮箱",
     "cardPhone": "电话",
     "cardPhoneP": "咨询电话号码即将公布",
