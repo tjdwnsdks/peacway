@@ -354,6 +354,17 @@
     "fl3": "그룹 채팅방<br>다국어 변환",
     "fl4": "관광객 단말기<br>모국어 수신",
     "fl5": "관광객 질문<br>한국어 역변환",
-    "bottomHtml": "<strong>🌍 PEACEWAY PAJU × AI 통번역</strong><br>이 기술이 적용되면, DMZ 평화 관광 프로그램에 참여하는 30개국 이상의 관광객이 가이드 한 명의 안내만으로 각자의 모국어로 실시간 관광 정보를 받을 수 있습니다. 관광객 간의 국경을 넘는 실시간 대화도 가능해집니다."
+    "bottomHtml": "<strong>🌍 PEACEWAY PAJU × AI 통번역</strong><br>이 기술이 적용되면, DMZ 평화 관광 프로그램에 참여하는 30개국 이상의 관광객이 가이드 한 명의 안내만으로 각자의 모국어로 실시간 관광 정보를 받을 수 있습니다. 관광객 간의 국경을 넘는 실시간 대화도 가능해집니다.",
+    "downloadLabel": "앱 다운로드",
+    "downloadAria": "iOS용 App Store와 Android용 Play Store 다운로드 링크",
+    "downloadLinkTitleApp": "iOS App Store 링크는 곧 제공됩니다",
+    "downloadLinkTitlePlay": "Android Play Store 링크는 곧 제공됩니다",
+    "btnAppStoreName": "App Store",
+    "btnAppStorePlatform": "iOS",
+    "btnPlayStoreName": "Play Store",
+    "btnPlayStorePlatform": "Android",
+    "ariaAppStoreBtn": "iOS용 App Store",
+    "ariaPlayStoreBtn": "Android용 Play Store",
+    "downloadPendingMsg": "준비 중입니다."
   }
 }

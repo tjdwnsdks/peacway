@@ -1,42 +1,42 @@
 {
   "meta": {
     "index": {
-      "title": "PEACEWAY PAJU — 地雷原の上に平和の樹を植える",
-      "description": "DMZ接境地域で世界の人々が平和の花樹を自ら植え、韓国文化を体験する持続可能な観光プログラム"
+      "title": "PEACEWAY PAJU — かつての地雷原に平和の樹を植える",
+      "description": "DMZ周辺の接境地域で、世界中の人々が平和の花樹を植え、韓国文化を体験するサステナブル観光プログラム。"
     },
     "about": {
-      "title": "About — PEACEWAY PAJU",
-      "description": "DMZ平和の足跡農場、パートナーシップ、空間紹介 — PEACEWAY PAJU"
+      "title": "プロジェクト紹介 — PEACEWAY PAJU",
+      "description": "DMZ平和の足跡農場、パートナーシップ、体験空間についてご紹介します。"
     },
     "programs": {
-      "title": "Programs — PEACEWAY PAJU",
-      "description": "平和の樹を植える体験、地雷教育体験、文化体験プログラム — PEACEWAY PAJU"
+      "title": "体験プログラム — PEACEWAY PAJU",
+      "description": "平和の樹を植える体験、地雷安全教育体験、韓国文化プログラムをご案内します。"
     },
     "journey": {
-      "title": "Journey — PEACEWAY PAJU",
-      "description": "参加者の旅程、体験動線、所要時間のご案内 — PEACEWAY PAJU"
+      "title": "体験の流れ — PEACEWAY PAJU",
+      "description": "参加者の一日の流れ、体験動線、所要時間をご案内します。"
     },
     "garden": {
-      "title": "Peace Garden — PEACEWAY PAJU",
-      "description": "平和の花樹図鑑と四季の開花カレンダー — PEACEWAY PAJU"
+      "title": "平和の庭 — PEACEWAY PAJU",
+      "description": "平和の花樹図鑑と四季の開花カレンダーをご覧いただけます。"
     },
     "contact": {
-      "title": "Contact — PEACEWAY PAJU",
-      "description": "プログラム予約・お問い合わせ、FAQ — PEACEWAY PAJU"
+      "title": "予約・お問い合わせ — PEACEWAY PAJU",
+      "description": "プログラム予約、お問い合わせ、よくある質問をご確認いただけます。"
     },
     "patent": {
-      "title": "AI通訳翻訳 — PEACEWAY PAJU",
-      "description": "AIリアルタイム通訳翻訳観光プラットフォーム、特許出願中の技術 — PEACEWAY PAJU"
+      "title": "AI通訳・翻訳 — PEACEWAY PAJU",
+      "description": "多言語観光のためのAIリアルタイム通訳・翻訳プラットフォームと特許出願中の技術をご紹介します。"
     }
   },
   "nav": {
     "home": "ホーム",
-    "about": "紹介",
+    "about": "プロジェクト紹介",
     "programs": "プログラム",
-    "journey": "旅程",
+    "journey": "体験の流れ",
     "garden": "平和の庭",
-    "contact": "お問い合わせ",
-    "patent": "AI通訳翻訳",
+    "contact": "予約・お問い合わせ",
+    "patent": "AI通訳・翻訳",
     "ariaMenu": "メニュー"
   },
   "lang": {
@@ -49,13 +49,13 @@
   "footer": {
     "copyright": "© 2026 PEACEWAY PAJU",
     "company": "K-MIND株式会社 (K-MIND Co., Ltd.)",
-    "location": "京畿道坡州市 · contact@peaceway.kr"
+    "location": "京畿道パジュ市 · contact@peaceway.kr"
   },
   "home": {
     "hero": {
       "badge": "Sustainable Tourism · DMZ Paju",
-      "tagline": "地雷原の上に平和の樹を植える",
-      "desc": "DMZ接境地域で世界中の人々が平和の花樹を自ら植え、<br>韓国文化を体験する持続可能な観光プログラムです。",
+      "tagline": "かつての地雷原に平和の樹を植える",
+      "desc": "DMZ接境地域で、世界中の人々が平和の花樹を自ら植え、<br>韓国文化を体験するサステナブル観光プログラムです。",
       "btnPrograms": "プログラムを見る",
       "btnContact": "予約・お問い合わせ"
     },
@@ -75,7 +75,7 @@
     "stat2": "目標植栽本数",
     "stat3": "目標参加人数",
     "compare": {
-      "label": "Why PEACEWAY?",
+      "label": "なぜPEACEWAYなのか",
       "title": "なぜPEACEWAYなのか",
       "hItem": "項目",
       "hRibbon": "臨津閣でのリボン結び",
@@ -91,10 +91,10 @@
       "c33": "オンライン永久登録＋成長追跡",
       "c41": "教育",
       "c42": "見学中心",
-      "c43": "平和歴史教育＋地雷体験",
+      "c43": "平和歴史教育＋地雷安全教育体験",
       "c51": "参加度",
       "c52": "受動的",
-      "c53": "能動的・文化体験を含む",
+      "c53": "能動的に参加でき、文化体験も含まれる",
       "c61": "場所",
       "c62": "一般的な観光地",
       "c63": "DMZ民間人統制区域内の農場（非公開エリア）"
@@ -110,10 +110,10 @@
     "quote": "「リボンは風に飛ばされても、<br>樹はしっかりと根を下ろします。」"
   },
   "about": {
-    "label": "About",
+    "label": "プロジェクト紹介",
     "title": "なぜDMZに樹を植えるのか",
     "subtitle": "世界の紛争の記憶が残る地に、自ら平和の象徴を植えること。それがPEACEWAYの出発点です。",
-    "calloutTitle": "🌿 坡州DMZ 平和の足跡農場",
+    "calloutTitle": "🌿 パジュ DMZ 平和の足跡農場",
     "flow1": "地雷原",
     "flow2": "花畑",
     "flow3": "平和の森",
@@ -126,7 +126,7 @@
       "desc": "総合企画、オンラインプラットフォーム運営、DMZ農場の所有・管理"
     },
     "partner2": {
-      "name": "벼꽃피는마을",
+      "name": "ビョッコッピヌンマウル",
       "role": "チェ・サンイル代表",
       "desc": "オフライン体験空間の運営、地域農産物の栽培、文化体験プログラムの提供"
     },
@@ -136,7 +136,7 @@
       "desc": "地雷教育・体験プログラム運営、安全管理全般"
     },
     "calloutBody": "衛星から見ると足跡の形をしたDMZの土地に「平和の足跡」を残す象徴的な空間です。民間人統制区域の内側にあり、一般の人が簡単には立ち入れないこの場所で、世界の人々が樹を植えます。",
-    "spaceBody": "<strong>DMZ平和の足跡農場</strong> — 京畿道坡州市の民間人統制区域内に位置します。軍の許可のもとで運営される農地で、一般の立ち入りが制限された特別区域です。アクセスは坡州市内から車で約30分です。<br><br><strong>벼꽃피는마을</strong> — 坡州市にある農村体験空間です。K-ビビンバや螺鈿工芸などの文化体験プログラムが行われる、あたたかな村の空間です。"
+    "spaceBody": "<strong>DMZ平和の足跡農場</strong> — 京畿道パジュ市の民間人統制区域内に位置します。軍の許可のもとで運営される農地で、一般の立ち入りが制限された特別区域です。アクセスはパジュ市内から車で約30分です。<br><br><strong>ビョッコッピヌンマウル</strong> — パジュ市にある農村体験空間です。K-ビビンバや螺鈿工芸などの文化体験プログラムが行われる、あたたかな村の空間です。"
   },
   "programs": {
     "label": "Programs",
@@ -158,7 +158,7 @@
     "treeDur": "約60分",
     "treeNum": "10〜30名",
     "treeLoc": "DMZ平和の足跡農場",
-    "mineTitle": "💣 平和歴史教育プログラム — 地雷教育体験",
+    "mineTitle": "💣 平和歴史教育プログラム — 地雷安全教育体験",
     "mineLead": "分断の現実を体感できる教育プログラムです。安全な地雷模型と金属探知機を通して、平和の意味を学びます。",
     "mineWarnHtml": "⚠️ <strong>安全案内:</strong> 安全な地雷模型のみを教育用として使用します。パートナー: 韓国地雷研究所",
     "mineF1": "DMZ平和史を学ぶ",
@@ -170,20 +170,20 @@
     "mineNum": "10〜30名",
     "cultureTitle": "🎨 文化体験（食・工芸）",
     "culture1": "K-ビビンバ体験",
-    "culture1p": "坡州地域の農産物を使って自分で作るビビンバ体験です。新鮮な材料を自分で選び、自分だけのビビンバを作ります。",
+    "culture1p": "パジュ地域の農産物を使って自分で作るビビンバ体験です。新鮮な材料を自分で選び、自分だけのビビンバを作ります。",
     "culture1m1": "⏱ 約40分",
     "culture1m2": "👥 10〜30名",
-    "culture1m3": "📍 벼꽃피는마을",
+    "culture1m3": "📍 ビョッコッピヌンマウル",
     "culture2": "北朝鮮料理体験",
     "culture2p": "インジョゴギパプやとうもろこし餅など、北朝鮮の料理を実際に作って味わう特別な体験です。DMZの分断の現実を、食を通じて理解します。",
     "culture2m1": "⏱ 約50分",
     "culture2m2": "👥 10〜20名",
-    "culture2m3": "📍 벼꽃피는마을",
+    "culture2m3": "📍 ビョッコッピヌンマウル",
     "culture3": "螺鈿工芸",
     "culture3p": "伝統的な螺鈿装飾を活かしたスマホケース、キーホルダー、手鏡づくり。韓国伝統工芸の美しさを自分の手で体験できます。",
     "culture3m1": "⏱ 約40分",
     "culture3m2": "👥 10〜20名",
-    "culture3m3": "📍 벼꽃피는마을"
+    "culture3m3": "📍 ビョッコッピヌンマウル"
   },
   "journey": {
     "label": "Journey",
@@ -205,7 +205,7 @@
     "s3m3": "🌳 メイン",
     "s4h": "文化体験",
     "s4p": "K-ビビンバ / 北朝鮮料理 / 螺鈿工芸（1〜2つ選択）",
-    "s4m1": "📍 벼꽃피는마을",
+    "s4m1": "📍 ビョッコッピヌンマウル",
     "s4m2": "⏱ 約40〜90分",
     "s4m3": "🎨 体験",
     "s5h": "オンライン記録",
@@ -217,7 +217,7 @@
     "s6m1": "🌐 オンライン",
     "s6m2": "⏱ 継続",
     "s6m3": "🌱 成長",
-    "totalHtml": "🕐 全体所要時間: <strong>約4〜5時間</strong> &nbsp;|&nbsp; 集合場所: 坡州指定場所 &nbsp;|&nbsp; 持ち物: 動きやすい服装、帽子",
+    "totalHtml": "🕐 全体所要時間: <strong>約4〜5時間</strong> &nbsp;|&nbsp; 集合場所: パジュ指定場所 &nbsp;|&nbsp; 持ち物: 動きやすい服装、帽子",
     "btnContact": "予約・お問い合わせ"
   },
   "garden": {
@@ -309,7 +309,7 @@
     "cardKakaoL": "PEACEWAY PAJUチャンネルへ",
     "cardInsta": "Instagram",
     "cardMap": "アクセス",
-    "cardMapHtml": "京畿道坡州市 民間人統制区域一帯<br>詳細な場所は予約確定後に別途ご案内します",
+    "cardMapHtml": "京畿道パジュ市・DMZ周辺の民間人統制区域<br>詳細なご案内は予約確定後にお送りします",
     "faqTitle": "❓ よくある質問（FAQ）",
     "faq1q": "Q. 外国人も参加できますか？",
     "faq1a": "はい。外国人観光客のために企画されたプログラムです。ただし、民間人統制区域の特性上、事前予約と身分確認が必要です。",
@@ -317,7 +317,7 @@
     "faq2a": "基本的な英語案内をご用意しており、団体予約の場合は専門通訳の手配も可能です。AIリアルタイム通訳翻訳システムの導入も予定しています。",
     "faq3q": "Q. 参加費はいくらですか？",
     "faq3a": "プログラム内容や人数によって異なります。お問い合わせフォームを通じて詳細なお見積りをご案内いたします。",
-    "faq4q": "Q. 地雷教育体験は安全ですか？",
+    "faq4q": "Q. 地雷安全教育体験は安全ですか？",
     "faq4a": "はい、完全に安全です。教育用の安全な地雷模型のみを使用し、韓国地雷研究所の専門家が安全管理を行います。",
     "faq5q": "Q. 植えた樹を後から確認できますか？",
     "faq5a": "はい。第2段階でオンライン追跡システムが整備されると、GPS位置情報と成長写真を通じて自分の樹を確認できます。",
@@ -330,12 +330,12 @@
     "faq9q": "Q. 駐車はどこにできますか？",
     "faq9a": "体験場所近くの指定駐車場をご利用いただけます。詳細な場所は予約確定後にご案内します。",
     "faq10q": "Q. 行き方を教えてください。",
-    "faq10a": "坡州市内から車で約30分です。民間人統制区域への立ち入りには事前許可が必要なため、予約時に詳しい交通案内をお伝えします。団体の場合はシャトル運行も可能です。"
+    "faq10a": "パジュ市内から車で約30分です。民間人統制区域への立ち入りには事前許可が必要なため、予約時に詳しい交通案内をお伝えします。団体の場合はシャトル運行も可能です。"
   },
   "patent": {
     "label": "Technology",
-    "title": "🌐 AIリアルタイム通訳翻訳観光プラットフォーム",
-    "subtitle": "PEACEWAY PAJUが準備する革新的な技術 — 言語の壁のない平和観光の未来",
+    "title": "🌐 AIリアルタイム通訳・翻訳観光プラットフォーム",
+    "subtitle": "PEACEWAY PAJUが準備する革新的な技術 — 言語の壁を越える平和観光の未来",
     "badge": "特許出願中の技術",
     "patentTitle": "AIリアルタイム双方向同時通訳観光ガイドプラットフォーム",
     "patentEn": "Method and system for providing tourism information to foreign tourists in two directions using a group chat platform equipped with artificial intelligence interpretation and translation functions",

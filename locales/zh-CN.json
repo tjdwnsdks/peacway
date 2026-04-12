@@ -1,39 +1,39 @@
 {
   "meta": {
     "index": {
-      "title": "PEACEWAY PAJU — 在昔日雷场上种下和平之树",
-      "description": "位于 DMZ 边境地区的可持续旅游项目，让来自世界各地的游客亲手种下和平花树，并体验韩国文化。"
+      "title": "PEACEWAY PAJU — 在昔日雷区种下和平之树",
+      "description": "位于 DMZ 边境地区的可持续旅游体验，让来自世界各地的游客亲手种下和平花树，并深入体验韩国文化。"
     },
     "about": {
-      "title": "关于我们 — PEACEWAY PAJU",
-      "description": "DMZ 和平足迹农场、合作伙伴与空间介绍 — PEACEWAY PAJU"
+      "title": "关于 PEACEWAY PAJU — DMZ 和平植树项目",
+      "description": "了解 DMZ 和平足迹农场、合作伙伴关系与主要体验空间。"
     },
     "programs": {
-      "title": "项目介绍 — PEACEWAY PAJU",
-      "description": "和平植树、地雷教育体验、文化体验项目 — PEACEWAY PAJU"
+      "title": "活动项目｜PEACEWAY PAJU",
+      "description": "了解和平植树、地雷安全教育体验与韩国文化体验活动。"
     },
     "journey": {
-      "title": "行程路线 — PEACEWAY PAJU",
-      "description": "游客行程、体验动线与所需时间说明 — PEACEWAY PAJU"
+      "title": "体验行程｜PEACEWAY PAJU",
+      "description": "查看游客动线、活动流程与预计所需时间。"
     },
     "garden": {
-      "title": "和平花园 — PEACEWAY PAJU",
-      "description": "和平花树图鉴与四季开花日历 — PEACEWAY PAJU"
+      "title": "和平花园｜PEACEWAY PAJU",
+      "description": "浏览和平花树图鉴与四季开花日历。"
     },
     "contact": {
-      "title": "联系我们 — PEACEWAY PAJU",
-      "description": "项目预约、咨询与 FAQ — PEACEWAY PAJU"
+      "title": "预约与咨询｜PEACEWAY PAJU",
+      "description": "进行活动预约、发送咨询，并查看常见问题。"
     },
     "patent": {
-      "title": "AI 实时翻译口译 — PEACEWAY PAJU",
-      "description": "AI 实时口笔译旅游平台，专利申请中的技术 — PEACEWAY PAJU"
+      "title": "AI 实时翻译与口译｜PEACEWAY PAJU",
+      "description": "了解 PEACEWAY PAJU 专利申请中的多语言旅游 AI 翻译与口译平台。"
     }
   },
   "nav": {
     "home": "首页",
     "about": "关于我们",
     "programs": "活动介绍",
-    "journey": "行程",
+    "journey": "体验行程",
     "garden": "和平花园",
     "contact": "联系我们",
     "patent": "AI 实时翻译口译",
@@ -54,7 +54,7 @@
   "home": {
     "hero": {
       "badge": "可持续旅游 · DMZ 坡州",
-      "tagline": "在昔日雷场上种下和平之树",
+      "tagline": "在昔日雷区种下和平之树",
       "desc": "在 DMZ 边境地区，来自世界各地的游客亲手种下和平花树，<br>并通过可持续旅游项目体验韩国文化。",
       "btnPrograms": "查看项目",
       "btnContact": "预约 / 咨询"
@@ -91,7 +91,7 @@
       "c33": "在线永久登记 + 成长追踪",
       "c41": "教育",
       "c42": "单纯参观",
-      "c43": "和平历史教育 + 地雷教育体验",
+      "c43": "和平历史教育 + 地雷安全教育体验",
       "c51": "参与度",
       "c52": "被动",
       "c53": "主动参与 · 含文化体验",
@@ -101,7 +101,7 @@
     },
     "cta": {
       "title": "和我们一起种下和平之树",
-      "subtitle": "直到 DMZ 的雷场变成花园的那一天。",
+      "subtitle": "直到 DMZ 的雷区绽放成花园的那一天。",
       "btnInquiry": "项目预约咨询",
       "btnInstagram": "关注 Instagram"
     }
@@ -158,7 +158,7 @@
     "treeDur": "约 60 分钟",
     "treeNum": "10–30 人",
     "treeLoc": "DMZ 和平足迹农场",
-    "mineTitle": "💣 和平历史教育项目 — 地雷教育体验",
+    "mineTitle": "💣 和平历史教育项目 — 地雷安全教育体验",
     "mineLead": "通过安全的地雷模型和金属探测器，亲身感受分裂现实并理解和平的意义。",
     "mineWarnHtml": "⚠️ <strong>安全提示：</strong> 仅使用安全的教学用地雷模型。合作伙伴：韩国地雷研究所",
     "mineF1": "DMZ 和平历史学习",
@@ -309,7 +309,7 @@
     "cardKakaoL": "前往 PEACEWAY PAJU 频道",
     "cardInsta": "Instagram",
     "cardMap": "如何前往",
-    "cardMapHtml": "京畿道坡州市民间人出入管制区一带<br>详细位置将在预约确认后另行通知",
+    "cardMapHtml": "韩国京畿道坡州市民间人出入管制区（邻近 DMZ）<br>详细路线将在预约确认后提供",
     "faqTitle": "❓ 常见问题（FAQ）",
     "faq1q": "Q. 外国人也可以参加吗？",
     "faq1a": "可以。本项目是为外国游客策划的。但由于位于民间人出入管制区，需要提前预约并进行身份确认。",
@@ -317,7 +317,7 @@
     "faq2a": "提供基础英语说明；团体预约时也可安排专业口译服务。未来还计划导入 AI 实时翻译口译系统。",
     "faq3q": "Q. 参加费用是多少？",
     "faq3a": "费用将根据项目内容和人数而有所不同。可通过咨询表单获取详细报价。",
-    "faq4q": "Q. 地雷教育体验安全吗？",
+    "faq4q": "Q. 地雷安全教育体验安全吗？",
     "faq4a": "完全安全。仅使用教学用地雷模型，并由韩国地雷研究所专家负责安全管理。",
     "faq5q": "Q. 以后还能查看我种的树吗？",
     "faq5a": "可以。第二阶段上线在线追踪系统后，您可通过 GPS 位置与成长照片查看自己种下的树木。",
@@ -334,7 +334,7 @@
   },
   "patent": {
     "label": "技术",
-    "title": "🌐 AI 实时翻译口译旅游平台",
+    "title": "🌐 AI 实时翻译与口译旅游平台",
     "subtitle": "PEACEWAY PAJU 正在打造的创新技术——没有语言障碍的和平旅游未来",
     "badge": "专利申请中的技术",
     "patentTitle": "AI 实时双向同声口译旅游导览平台",

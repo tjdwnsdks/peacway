@@ -1,32 +1,32 @@
 {
   "meta": {
     "index": {
-      "title": "PEACEWAY PAJU — Planting trees of peace on a minefield",
-      "description": "A sustainable tourism program in the DMZ border area where people from around the world plant peace flowering trees and experience Korean culture."
+      "title": "PEACEWAY PAJU — Transforming Former Minefields into Gardens of Peace",
+      "description": "A sustainable DMZ tourism experience in Paju where visitors plant peace flowering trees, learn peace history, and discover Korean culture."
     },
     "about": {
-      "title": "About — PEACEWAY PAJU",
-      "description": "DMZ Peace Footsteps Farm, partnerships, and spaces — PEACEWAY PAJU"
+      "title": "About the DMZ Peace Tree Project — PEACEWAY PAJU",
+      "description": "Discover the DMZ Peace Footsteps Farm, key partners, and the spaces behind the PEACEWAY PAJU experience."
     },
     "programs": {
-      "title": "Programs — PEACEWAY PAJU",
-      "description": "Peace tree planting, mine education experience, and cultural programs — PEACEWAY PAJU"
+      "title": "Programs | DMZ Peace Tree Planting & Cultural Experiences — PEACEWAY PAJU",
+      "description": "Explore tree planting, peace history education, mine-safety learning, and Korean cultural experiences at PEACEWAY PAJU."
     },
     "journey": {
-      "title": "Journey — PEACEWAY PAJU",
-      "description": "Visitor journey, experience route, and duration — PEACEWAY PAJU"
+      "title": "Journey | Your DMZ Peace Experience in Paju — PEACEWAY PAJU",
+      "description": "See the full visitor journey, program flow, and estimated duration for the PEACEWAY PAJU experience."
     },
     "garden": {
-      "title": "Peace Garden — PEACEWAY PAJU",
-      "description": "Guide to peace flowering trees and a four-season bloom calendar — PEACEWAY PAJU"
+      "title": "Peace Garden | Trees in Bloom at the DMZ — PEACEWAY PAJU",
+      "description": "Browse peace flowering trees and the four-season bloom calendar in the PEACEWAY PAJU Peace Garden."
     },
     "contact": {
-      "title": "Contact — PEACEWAY PAJU",
-      "description": "Program booking, inquiries, and FAQ — PEACEWAY PAJU"
+      "title": "Bookings & Inquiries — PEACEWAY PAJU",
+      "description": "Book a program, send an inquiry, and find answers to frequently asked questions for PEACEWAY PAJU."
     },
     "patent": {
-      "title": "AI Interpretation & Translation — PEACEWAY PAJU",
-      "description": "AI real-time interpretation and translation tourism platform, patent-pending technology — PEACEWAY PAJU"
+      "title": "AI Interpretation & Translation for Tourism — PEACEWAY PAJU",
+      "description": "Learn about PEACEWAY PAJU's patent-pending AI interpretation and translation platform for multilingual tourism."
     }
   },
   "nav": {
@@ -54,10 +54,10 @@
   "home": {
     "hero": {
       "badge": "Sustainable Tourism · DMZ Paju",
-      "tagline": "Planting trees of peace on a minefield",
-      "desc": "A sustainable tourism program in the DMZ border area where people from around the world plant peace flowering trees with their own hands<br>and experience Korean culture.",
+      "tagline": "Planting Trees of Peace on the DMZ Minefields",
+      "desc": "A sustainable tourism experience in the DMZ border area where visitors from around the world plant peace flowering trees with their own hands<br>and discover Korean culture.",
       "btnPrograms": "View Programs",
-      "btnContact": "Book Now"
+      "btnContact": "Book / Contact"
     },
     "pillar1": {
       "title": "Plant trees",
@@ -91,7 +91,7 @@
       "c33": "Permanent online record + growth tracking",
       "c41": "Education",
       "c42": "Simple sightseeing",
-      "c43": "Peace history education + mine experience",
+      "c43": "Peace history education + mine safety training experience",
       "c51": "Participation",
       "c52": "Passive",
       "c53": "Active · includes cultural experiences",
@@ -101,7 +101,7 @@
     },
     "cta": {
       "title": "Join us in planting trees of peace",
-      "subtitle": "Until the minefields of the DMZ are transformed into flower gardens.",
+      "subtitle": "Until the former minefields of the DMZ bloom into gardens.",
       "btnInquiry": "Program Booking Inquiry",
       "btnInstagram": "Follow on Instagram"
     }
@@ -126,7 +126,7 @@
       "desc": "Overall planning, online platform, DMZ farm ownership and management"
     },
     "partner2": {
-      "name": "Byeo-kkot-pineun Maeul",
+      "name": "Byeotkkot Pineun Maeul",
       "role": "CEO Sang-il Choi",
       "desc": "Operation of the offline experience venue, local agricultural cultivation, and cultural experience programs"
     },
@@ -136,7 +136,7 @@
       "desc": "Operation of mine education and experience programs, and overall safety management"
     },
     "calloutBody": "Viewed from above, this footprint-shaped piece of DMZ land is a symbolic space that leaves behind “footsteps of peace.” Inside the Civilian Control Zone, in a place that is not easily accessible to the public, people from around the world plant trees here.",
-    "spaceBody": "<strong>DMZ Peace Footsteps Farm</strong> — Located inside the Civilian Control Zone in Paju, Gyeonggi-do. It is farmland operated with military approval and belongs to a special restricted-access area. Travel time: about 30 minutes by car from central Paju.<br><br><strong>Byeo-kkot-pineun Maeul</strong> — A rural experience venue in Paju. A warm village space where cultural programs such as K-bibimbap and mother-of-pearl craft are offered."
+    "spaceBody": "<strong>DMZ Peace Footsteps Farm</strong> — Located inside the Civilian Control Zone in Paju, Gyeonggi-do. It is farmland operated with military approval and belongs to a special restricted-access area. Travel time: about 30 minutes by car from Paju city center.<br><br><strong>Byeotkkot Pineun Maeul</strong> — A rural experience venue in Paju. A warm village space where cultural programs such as K-bibimbap and mother-of-pearl craft are offered."
   },
   "programs": {
     "label": "Programs",
@@ -173,17 +173,17 @@
     "culture1p": "Make your own bibimbap using local produce from Paju. Choose fresh ingredients yourself and create a bibimbap that is uniquely yours.",
     "culture1m1": "⏱ About 40 min",
     "culture1m2": "👥 10–30 people",
-    "culture1m3": "📍 Byeo-kkot-pineun Maeul",
+    "culture1m3": "📍 Byeotkkot Pineun Maeul",
     "culture2": "North Korean food experience",
     "culture2p": "A special experience where you make and taste North Korean dishes such as injo-gogi-bap and corn rice cakes. Understand the reality of division in the DMZ through food.",
     "culture2m1": "⏱ About 50 min",
     "culture2m2": "👥 10–20 people",
-    "culture2m3": "📍 Byeo-kkot-pineun Maeul",
+    "culture2m3": "📍 Byeotkkot Pineun Maeul",
     "culture3": "Mother-of-Pearl Craft",
     "culture3p": "Create phone cases, keychains, and hand mirrors using traditional mother-of-pearl decoration. Experience the beauty of Korean traditional craft with your own hands.",
     "culture3m1": "⏱ About 40 min",
     "culture3m2": "👥 10–20 people",
-    "culture3m3": "📍 Byeo-kkot-pineun Maeul"
+    "culture3m3": "📍 Byeotkkot Pineun Maeul"
   },
   "journey": {
     "label": "Journey",
@@ -205,7 +205,7 @@
     "s3m3": "🌳 Signature",
     "s4h": "Cultural experience",
     "s4p": "K-bibimbap / North Korean food / mother-of-pearl craft (choose 1–2)",
-    "s4m1": "📍 Byeo-kkot-pineun Maeul",
+    "s4m1": "📍 Byeotkkot Pineun Maeul",
     "s4m2": "⏱ About 40–90 min",
     "s4m3": "🎨 Culture",
     "s5h": "Online Record",
@@ -309,7 +309,7 @@
     "cardKakaoL": "Go to the PEACEWAY PAJU channel",
     "cardInsta": "Instagram",
     "cardMap": "How to Get Here",
-    "cardMapHtml": "Civilian Control Zone area, Paju, Gyeonggi-do<br>Detailed directions will be provided after your booking is confirmed",
+    "cardMapHtml": "Civilian Control Zone near the DMZ, Paju, Gyeonggi-do<br>Detailed directions will be provided after booking confirmation",
     "faqTitle": "❓ Frequently Asked Questions (FAQ)",
     "faq1q": "Q. Can foreigners participate?",
     "faq1a": "Yes. This program was designed for international visitors. However, because it takes place inside the Civilian Control Zone, advance booking and ID verification are required.",
