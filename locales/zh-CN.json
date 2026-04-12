@@ -1,32 +1,32 @@
 {
   "meta": {
     "index": {
-      "title": "PEACEWAY PAJU — 在昔日雷区种下和平之树",
-      "description": "位于 DMZ 边境地区的可持续旅游体验，让来自世界各地的游客亲手种下和平花树，并深入体验韩国文化。"
+      "title": "PEACEWAY 坡州 | DMZ 和平植树与可持续旅游",
+      "description": "韩国京畿道坡州 PEACEWAY PAJU 官方项目：在 DMZ 边境亲手种下和平花树，参与地雷安全教育体验，感受韩国文化与可持续旅游。外国人预约与行程说明。"
     },
     "about": {
-      "title": "关于 PEACEWAY PAJU — DMZ 和平植树项目",
-      "description": "了解 DMZ 和平足迹农场、合作伙伴关系与主要体验空间。"
+      "title": "关于 PEACEWAY 坡州 | DMZ 和平足迹农场与合作方",
+      "description": "介绍位于民间人出入管制区内的 DMZ 和平足迹农场、벼꽃피는마을 (Byeo-kkot-pineun Maeul)、韩国地雷研究所三方合作及主要体验空间。"
     },
     "programs": {
-      "title": "活动项目｜PEACEWAY PAJU",
-      "description": "了解和平植树、地雷安全教育体验与韩国文化体验活动。"
+      "title": "PEACEWAY 坡州活动 | DMZ 植树与地雷安全教育体验",
+      "description": "和平植树、和平历史与地雷安全教育体验、K-拌饭与螺钿工艺等文化体验的内容、时长与场地一览，助您规划坡州 DMZ 行程。"
     },
     "journey": {
-      "title": "体验行程｜PEACEWAY PAJU",
-      "description": "查看游客动线、活动流程与预计所需时间。"
+      "title": "游客行程 | PEACEWAY 坡州 DMZ 一日游",
+      "description": "从在线预约到地雷安全教育体验、植树、在 벼꽃피는마을 (Byeo-kkot-pineun Maeul) 的文化体验与线上登记，完整动线与大致耗时说明。"
     },
     "garden": {
-      "title": "和平花园｜PEACEWAY PAJU",
-      "description": "浏览和平花树图鉴与四季开花日历。"
+      "title": "和平花园图鉴 | PEACEWAY 坡州 DMZ 花树",
+      "description": "DMZ 和平花园和平花树的花语、花期与四季开花日历，按季节了解可植树种，方便安排到访时间。"
     },
     "contact": {
-      "title": "预约与咨询｜PEACEWAY PAJU",
-      "description": "进行活动预约、发送咨询，并查看常见问题。"
+      "title": "预约咨询 | PEACEWAY 坡州 DMZ 体验",
+      "description": "提交活动预约与报价咨询，查看安全、交通、资格等常见问题。进入坡州 DMZ 管制区须事先预约。"
     },
     "patent": {
-      "title": "AI 实时翻译与口译｜PEACEWAY PAJU",
-      "description": "了解 PEACEWAY PAJU 专利申请中的多语言旅游 AI 翻译与口译平台。"
+      "title": "AI 旅游同声传译 | PEACEWAY 坡州专利申请技术",
+      "description": "面向多语言 DMZ 旅游的 AI 实时翻译与口译平台及申请专利中的技术介绍，服务导游与国际团队。"
     }
   },
   "nav": {
@@ -126,7 +126,7 @@
       "desc": "总体企划、线上平台运营、DMZ 农场所有与管理"
     },
     "partner2": {
-      "name": "벼꽃피는마을",
+      "name": "벼꽃피는마을 (Byeo-kkot-pineun Maeul)",
       "role": "代表 崔相一",
       "desc": "线下体验空间运营、当地农产品种植、文化体验项目"
     },
@@ -136,7 +136,7 @@
       "desc": "地雷教育与体验项目运营、安全管理总负责"
     },
     "calloutBody": "从卫星上看，这是一块呈足迹形状的 DMZ 土地，是留下“和平足迹”的象征性空间。位于民间人出入管制区内，一般人难以进入，来自世界各地的人在这里种树。",
-    "spaceBody": "<strong>DMZ 和平足迹农场</strong> — 位于韩国京畿道坡州市民间人出入管制区内。在军方许可下运营的农地，属于限制出入的特殊区域。从坡州市区乘车约 30 分钟。<br><br><strong>벼꽃피는마을</strong> — 位于坡州市的乡村体验空间。这里提供 K-拌饭、螺钿工艺等韩国文化体验项目。"
+    "spaceBody": "<strong>DMZ 和平足迹农场</strong> — 位于韩国京畿道坡州市民间人出入管制区内。在军方许可下运营的农地，属于限制出入的特殊区域。从坡州市区乘车约 30 分钟。<br><br><strong>벼꽃피는마을 (Byeo-kkot-pineun Maeul)</strong> — 位于坡州市的乡村体验空间。这里提供 K-拌饭、螺钿工艺等韩国文化体验项目。"
   },
   "programs": {
     "label": "项目",
@@ -173,17 +173,17 @@
     "culture1p": "使用坡州当地农产品亲手制作拌饭。您可以挑选新鲜食材，做出属于自己的拌饭。",
     "culture1m1": "⏱ 约 40 分钟",
     "culture1m2": "👥 10–30 人",
-    "culture1m3": "📍 벼꽃피는마을",
+    "culture1m3": "📍 벼꽃피는마을 (Byeo-kkot-pineun Maeul)",
     "culture2": "朝鲜料理体验",
     "culture2p": "亲手制作并品尝“人造肉饭”、玉米年糕等朝鲜料理的特别体验。通过食物理解 DMZ 的分裂现实。",
     "culture2m1": "⏱ 约 50 分钟",
     "culture2m2": "👥 10–20 人",
-    "culture2m3": "📍 벼꽃피는마을",
+    "culture2m3": "📍 벼꽃피는마을 (Byeo-kkot-pineun Maeul)",
     "culture3": "螺钿工艺",
     "culture3p": "利用传统螺钿装饰制作手机壳、钥匙扣和手镜，亲手体验韩国传统工艺之美。",
     "culture3m1": "⏱ 约 40 分钟",
     "culture3m2": "👥 10–20 人",
-    "culture3m3": "📍 벼꽃피는마을"
+    "culture3m3": "📍 벼꽃피는마을 (Byeo-kkot-pineun Maeul)"
   },
   "journey": {
     "label": "行程",
@@ -193,7 +193,7 @@
     "s1p": "选择项目并申请希望日期",
     "s1m1": "🌐 在线",
     "s1m2": "⏱ 事前",
-    "s2h": "和平历史教育 — 地雷体验",
+    "s2h": "和平历史教育 — 地雷安全教育体验",
     "s2p": "学习 DMZ 历史 + 金属探测器体验 + 观察地雷模型",
     "s2m1": "📍 DMZ 农场",
     "s2m2": "⏱ 约 40 分钟",
@@ -205,7 +205,7 @@
     "s3m3": "🌳 核心",
     "s4h": "文化体验",
     "s4p": "K-拌饭 / 朝鲜料理 / 螺钿工艺（任选 1–2 项）",
-    "s4m1": "📍 벼꽃피는마을",
+    "s4m1": "📍 벼꽃피는마을 (Byeo-kkot-pineun Maeul)",
     "s4m2": "⏱ 约 40–90 分钟",
     "s4m3": "🎨 体验",
     "s5h": "在线记录",
@@ -295,7 +295,7 @@
       "countryPh": "请输入国籍",
       "notePh": "欢迎自由填写您的问题",
       "cbTree": "🌳 种树",
-      "cbMine": "💣 和平历史（地雷教育）",
+      "cbMine": "💣 和平历史（地雷安全教育体验）",
       "cbBibim": "🍚 拌饭",
       "cbNK": "🥟 朝鲜料理",
       "cbCraft": "🎨 手工艺",

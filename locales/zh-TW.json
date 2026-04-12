@@ -1,32 +1,32 @@
 {
   "meta": {
     "index": {
-      "title": "PEACEWAY PAJU — 在昔日雷場種下和平之樹",
-      "description": "位於 DMZ 邊境地區的永續旅遊體驗，讓來自世界各地的旅客親手種下和平花樹，並深入體驗韓國文化。"
+      "title": "PEACEWAY 坡州 | DMZ 和平植樹與永續旅遊",
+      "description": "韓國京畿道坡州 PEACEWAY PAJU 官方體驗：在 DMZ 邊境親手種下和平花樹，參與地雷安全教育體驗，認識韓國文化與永續旅遊。外國旅客預約與行程說明。"
     },
     "about": {
-      "title": "關於 PEACEWAY PAJU — DMZ 和平植樹計畫",
-      "description": "認識 DMZ 和平足跡農場、合作夥伴以及主要體驗空間。"
+      "title": "關於 PEACEWAY 坡州 | DMZ 和平足跡農場與夥伴",
+      "description": "介紹民間人出入管制區內的 DMZ 和平足跡農場、벼꽃피는마을 (Byeo-kkot-pineun Maeul)、韓國地雷研究所三方合作及主要體驗空間。"
     },
     "programs": {
-      "title": "活動介紹｜PEACEWAY PAJU",
-      "description": "了解和平植樹、地雷安全教育體驗與韓國文化體驗活動。"
+      "title": "PEACEWAY 坡州活動 | DMZ 植樹與地雷安全教育體驗",
+      "description": "和平植樹、和平歷史與地雷安全教育體驗、K-拌飯與螺鈿工藝等文化體驗的內容、時長與場地，協助規劃坡州 DMZ 行程。"
     },
     "journey": {
-      "title": "體驗行程｜PEACEWAY PAJU",
-      "description": "查看旅客動線、體驗流程與預估所需時間。"
+      "title": "旅客行程 | PEACEWAY 坡州 DMZ 一日遊",
+      "description": "從線上預約到地雷安全教育體驗、植樹、於 벼꽃피는마을 (Byeo-kkot-pineun Maeul) 的文化體驗與線上登錄，完整動線與預估時間說明。"
     },
     "garden": {
-      "title": "和平花園｜PEACEWAY PAJU",
-      "description": "瀏覽和平花樹圖鑑與四季開花日曆。"
+      "title": "和平花園圖鑑 | PEACEWAY 坡州 DMZ 花樹",
+      "description": "DMZ 和平花園和平花樹的花語、花期與四季開花日曆，依季節掌握可植樹種，安排造訪時機。"
     },
     "contact": {
-      "title": "預約與洽詢｜PEACEWAY PAJU",
-      "description": "進行活動預約、提出洽詢，並查看常見問題。"
+      "title": "預約洽詢 | PEACEWAY 坡州 DMZ 體驗",
+      "description": "提交活動預約與報價洽詢，查閱安全、交通、資格等常見問題。進入坡州 DMZ 管制區須事先預約。"
     },
     "patent": {
-      "title": "AI 即時翻譯與口譯｜PEACEWAY PAJU",
-      "description": "了解 PEACEWAY PAJU 專利申請中的多語旅遊 AI 即時翻譯與口譯平台。"
+      "title": "AI 旅遊口譯翻譯 | PEACEWAY 坡州專利申請技術",
+      "description": "面向多語 DMZ 旅遊的 AI 即時翻譯與口譯平台及申請專利中的技術介紹，支援導覽與國際團體。"
     }
   },
   "nav": {
@@ -126,7 +126,7 @@
       "desc": "負責整體企劃、線上平台營運，以及 DMZ 農場的管理與營運"
     },
     "partner2": {
-      "name": "벼꽃피는마을",
+      "name": "벼꽃피는마을 (Byeo-kkot-pineun Maeul)",
       "role": "代表 崔相一",
       "desc": "負責線下體驗空間營運、在地農產品種植與文化體驗活動"
     },
@@ -136,7 +136,7 @@
       "desc": "負責地雷教育與體驗課程，以及整體安全管理"
     },
     "calloutBody": "從衛星俯瞰，這片 DMZ 土地呈現出足跡形狀，象徵著在此留下「和平的腳步」。位於民間人出入管制區內，一般人無法隨意進入，來自世界各地的旅客在此親手種下樹木。",
-    "spaceBody": "<strong>DMZ 和平足跡農場</strong> — 位於韓國京畿道坡州市的民間人出入管制區內，在軍方許可下營運的農地，屬於限制進出的特殊區域。從坡州市區開車約需 30 分鐘。<br><br><strong>벼꽃피는마을</strong> — 位於坡州市的農村體驗空間，提供 K-拌飯、螺鈿工藝等多樣韓國文化體驗活動。"
+    "spaceBody": "<strong>DMZ 和平足跡農場</strong> — 位於韓國京畿道坡州市的民間人出入管制區內，在軍方許可下營運的農地，屬於限制進出的特殊區域。從坡州市區開車約需 30 分鐘。<br><br><strong>벼꽃피는마을 (Byeo-kkot-pineun Maeul)</strong> — 位於坡州市的農村體驗空間，提供 K-拌飯、螺鈿工藝等多樣韓國文化體驗活動。"
   },
   "programs": {
     "label": "Programs",
@@ -173,17 +173,17 @@
     "culture1p": "使用坡州在地農產品親手製作拌飯。可親自挑選新鮮食材，做出專屬於自己的拌飯。",
     "culture1m1": "⏱ 約 40 分鐘",
     "culture1m2": "👥 10～30 人",
-    "culture1m3": "📍 벼꽃피는마을",
+    "culture1m3": "📍 벼꽃피는마을 (Byeo-kkot-pineun Maeul)",
     "culture2": "北韓料理體驗",
     "culture2p": "親手製作並品嚐「人造肉飯」、玉米年糕等北韓料理的特別體驗。透過飲食理解 DMZ 的分裂現實。",
     "culture2m1": "⏱ 約 50 分鐘",
     "culture2m2": "👥 10～20 人",
-    "culture2m3": "📍 벼꽃피는마을",
+    "culture2m3": "📍 벼꽃피는마을 (Byeo-kkot-pineun Maeul)",
     "culture3": "螺鈿工藝",
     "culture3p": "利用傳統螺鈿裝飾製作手機殼、鑰匙圈與手鏡，親手體驗韓國傳統工藝之美。",
     "culture3m1": "⏱ 約 40 分鐘",
     "culture3m2": "👥 10～20 人",
-    "culture3m3": "📍 벼꽃피는마을"
+    "culture3m3": "📍 벼꽃피는마을 (Byeo-kkot-pineun Maeul)"
   },
   "journey": {
     "label": "Journey",
@@ -193,7 +193,7 @@
     "s1p": "選擇活動並申請希望參加的日期",
     "s1m1": "🌐 線上",
     "s1m2": "⏱ 事前",
-    "s2h": "和平歷史教育 — 地雷體驗",
+    "s2h": "和平歷史教育 — 地雷安全教育體驗",
     "s2p": "學習 DMZ 歷史＋金屬探測器體驗＋觀察地雷模型",
     "s2m1": "📍 DMZ 農場",
     "s2m2": "⏱ 約 40 分鐘",
@@ -205,7 +205,7 @@
     "s3m3": "🌳 核心",
     "s4h": "文化體驗",
     "s4p": "K-拌飯 / 北韓料理 / 螺鈿工藝（擇 1～2）",
-    "s4m1": "📍 벼꽃피는마을",
+    "s4m1": "📍 벼꽃피는마을 (Byeo-kkot-pineun Maeul)",
     "s4m2": "⏱ 約 40～90 分鐘",
     "s4m3": "🎨 體驗",
     "s5h": "線上紀錄",
@@ -224,7 +224,7 @@
     "label": "Peace Garden",
     "title": "🌸 和平花樹圖鑑",
     "subtitle": "種植於 DMZ 和平花園中的花樹，每一棵都承載著和平的故事。",
-    "tree1h": "栾樹",
+    "tree1h": "欒樹",
     "tree1mean": "花語：等待、心願",
     "tree1sea": "開花期：6～7 月",
     "tree1peace": "南北高峰會的象徵樹",
@@ -295,7 +295,7 @@
       "countryPh": "請輸入國籍",
       "notePh": "歡迎自由填寫您的問題",
       "cbTree": "🌳 種樹體驗",
-      "cbMine": "💣 和平歷史（地雷教育）",
+      "cbMine": "💣 和平歷史（地雷安全教育體驗）",
       "cbBibim": "🍚 拌飯",
       "cbNK": "🥟 北韓料理",
       "cbCraft": "🎨 工藝",

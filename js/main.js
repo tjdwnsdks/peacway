@@ -1,50 +1,67 @@
-function toggleBlock(el) {
+/**
+ * FAQ(.faq-q)·접이식 블록(.toggle-header) 공통: 헤더 다음 형제 요소의 max-height 토글
+ * @param {HTMLElement} el 헤더 요소
+ */
+function toggleAccordionHeader(el) {
+  if (!el || typeof el.classList === 'undefined') return;
+  var body = el.nextElementSibling;
+  if (!body) return;
   el.classList.toggle('open');
-  const body = el.nextElementSibling;
   body.style.maxHeight = body.style.maxHeight ? null : body.scrollHeight + 'px';
 }
 
+/** programs.html 등 — 기존 onclick 호환 */
+function toggleBlock(el) {
+  toggleAccordionHeader(el);
+}
+
+/** contact.html FAQ — 기존 onclick 호환 */
 function toggleFaq(el) {
-  el.classList.toggle('open');
-  const body = el.nextElementSibling;
-  body.style.maxHeight = body.style.maxHeight ? null : body.scrollHeight + 'px';
+  toggleAccordionHeader(el);
 }
 
 function currentPageFile() {
-  let path = window.location.pathname.split('/').pop() || '';
+  var path = window.location.pathname.split('/').pop() || '';
   if (path === '' || path === '/') return 'index.html';
   return path;
 }
 
 function setActiveNav() {
-  const page = currentPageFile();
-  document.querySelectorAll('.nav-links a').forEach(a => {
-    const href = a.getAttribute('href') || '';
-    const file = href.split('/').pop() || '';
+  var page = currentPageFile();
+  document.querySelectorAll('.nav-links a').forEach(function(a) {
+    var href = a.getAttribute('href') || '';
+    var file = href.split('/').pop() || '';
     a.classList.toggle('active', file === page);
   });
 }
 
-document.getElementById('mobileToggle').addEventListener('click', function() {
-  document.getElementById('navLinks').classList.toggle('open');
-});
-
-document.querySelectorAll('.nav-links a').forEach(link => {
-  link.addEventListener('click', function() {
-    document.getElementById('navLinks').classList.remove('open');
-  });
-});
+function initMobileNav() {
+  var mobileToggle = document.getElementById('mobileToggle');
+  var navLinks = document.getElementById('navLinks');
+  if (mobileToggle && navLinks) {
+    mobileToggle.addEventListener('click', function() {
+      navLinks.classList.toggle('open');
+    });
+  }
+  if (navLinks) {
+    navLinks.querySelectorAll('a').forEach(function(link) {
+      link.addEventListener('click', function() {
+        navLinks.classList.remove('open');
+      });
+    });
+  }
+}
 
 function initPatentStoreDownloadClicks() {
-  const wrap = document.querySelector('.patent-app-download');
+  var wrap = document.querySelector('.patent-app-download');
   if (!wrap || wrap.dataset.patentStoreBound === '1') return;
   wrap.dataset.patentStoreBound = '1';
-  wrap.addEventListener('click', function (e) {
-    const a = e.target.closest('.patent-store-btn');
+  wrap.addEventListener('click', function(e) {
+    var a = e.target.closest('.patent-store-btn');
     if (!a || !wrap.contains(a)) return;
     e.preventDefault();
-    const msgEl = document.getElementById('patentDownloadPendingMsg');
-    const msg =
+    var msgEl = document.getElementById('patentDownloadPendingMsg');
+    var msg =
       msgEl && msgEl.textContent && msgEl.textContent.trim()
         ? msgEl.textContent.trim()
         : '준비중입니다.';
@@ -52,22 +69,32 @@ function initPatentStoreDownloadClicks() {
   });
 }
 
-document.addEventListener('DOMContentLoaded', () => {
-  setActiveNav();
-  initPatentStoreDownloadClicks();
-});
-
-window.addEventListener('i18n-ready', () => {
-  setActiveNav();
-  initPatentStoreDownloadClicks();
-});
-
-const observer = new IntersectionObserver((entries) => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add('visible');
-    }
+function initFadeInObserver() {
+  var fadeEls = document.querySelectorAll('.fade-in');
+  if (!fadeEls.length) return;
+  var observer = new IntersectionObserver(
+    function(entries) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    },
+    { threshold: 0.1 }
+  );
+  fadeEls.forEach(function(el) {
+    observer.observe(el);
   });
-}, { threshold: 0.1 });
+}
 
-document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+document.addEventListener('DOMContentLoaded', function() {
+  initMobileNav();
+  setActiveNav();
+  initPatentStoreDownloadClicks();
+  initFadeInObserver();
+});
+
+window.addEventListener('i18n-ready', function() {
+  setActiveNav();
+  initPatentStoreDownloadClicks();
+});

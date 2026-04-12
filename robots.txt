@@ -1,0 +1,6 @@
+# 배포 전: 아래 Sitemap URL의 https://yourdomain.com 을 실제 도메인으로 바꾸세요. (README.md 참고)
+
+User-agent: *
+Allow: /
+
+Sitemap: https://yourdomain.com/sitemap.xml

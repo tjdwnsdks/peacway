@@ -1,32 +1,32 @@
 {
   "meta": {
     "index": {
-      "title": "PEACEWAY PAJU — Transforming Former Minefields into Gardens of Peace",
-      "description": "A sustainable DMZ tourism experience in Paju where visitors plant peace flowering trees, learn peace history, and discover Korean culture."
+      "title": "PEACEWAY PAJU Paju | DMZ Peace Tree Planting & Sustainable Tourism",
+      "description": "Official PEACEWAY PAJU in Paju, South Korea: plant peace flowering trees in the DMZ border area, join a mine safety training experience, and explore Korean culture through sustainable tourism. Bookings for international visitors."
     },
     "about": {
-      "title": "About the DMZ Peace Tree Project — PEACEWAY PAJU",
-      "description": "Discover the DMZ Peace Footsteps Farm, key partners, and the spaces behind the PEACEWAY PAJU experience."
+      "title": "About PEACEWAY PAJU | DMZ Peace Footsteps Farm & Partners",
+      "description": "Meet the DMZ Peace Footsteps Farm, Korea Mine Research Institute, and 벼꽃피는마을 (Byeo-kkot-pineun Maeul)—the partners and venues behind PEACEWAY PAJU peace tourism in Paju."
     },
     "programs": {
-      "title": "Programs | DMZ Peace Tree Planting & Cultural Experiences — PEACEWAY PAJU",
-      "description": "Explore tree planting, peace history education, mine-safety learning, and Korean cultural experiences at PEACEWAY PAJU."
+      "title": "PEACEWAY PAJU Programs | DMZ Tree Planting & mine safety training experience",
+      "description": "Reserve DMZ peace tree planting, peace history learning, mine safety training experience, and Korean cultural workshops in Paju. Schedules, group sizes, and what to expect for visitors."
     },
     "journey": {
-      "title": "Journey | Your DMZ Peace Experience in Paju — PEACEWAY PAJU",
-      "description": "See the full visitor journey, program flow, and estimated duration for the PEACEWAY PAJU experience."
+      "title": "Visitor Journey | PEACEWAY PAJU DMZ Day in Paju",
+      "description": "Full itinerary from booking to mine safety training experience, tree planting, culture at 벼꽃피는마을 (Byeo-kkot-pineun Maeul), and online registration—times and flow for your DMZ visit."
     },
     "garden": {
-      "title": "Peace Garden | Trees in Bloom at the DMZ — PEACEWAY PAJU",
-      "description": "Browse peace flowering trees and the four-season bloom calendar in the PEACEWAY PAJU Peace Garden."
+      "title": "Peace Garden Trees | PEACEWAY PAJU DMZ Bloom Guide",
+      "description": "Guide to peace flowering trees in the DMZ Peace Garden: meanings, bloom seasons, and a four-season calendar to plan your PEACEWAY PAJU visit to Paju."
     },
     "contact": {
-      "title": "Bookings & Inquiries — PEACEWAY PAJU",
-      "description": "Book a program, send an inquiry, and find answers to frequently asked questions for PEACEWAY PAJU."
+      "title": "Book & Contact | PEACEWAY PAJU DMZ Tours Paju",
+      "description": "Request a DMZ program booking or quote, read FAQs on safety and access, and contact PEACEWAY PAJU. Civilian Control Zone visits require advance reservation."
     },
     "patent": {
-      "title": "AI Interpretation & Translation for Tourism — PEACEWAY PAJU",
-      "description": "Learn about PEACEWAY PAJU's patent-pending AI interpretation and translation platform for multilingual tourism."
+      "title": "AI Tourism Interpretation | PEACEWAY PAJU Patent-Pending Platform",
+      "description": "PEACEWAY PAJU’s real-time AI interpretation and translation for multilingual DMZ tourism—patent-pending technology for guides and international groups."
     }
   },
   "nav": {
@@ -126,7 +126,7 @@
       "desc": "Overall planning, online platform, DMZ farm ownership and management"
     },
     "partner2": {
-      "name": "Byeotkkot Pineun Maeul",
+      "name": "벼꽃피는마을 (Byeo-kkot-pineun Maeul)",
       "role": "CEO Sang-il Choi",
       "desc": "Operation of the offline experience venue, local agricultural cultivation, and cultural experience programs"
     },
@@ -136,7 +136,7 @@
       "desc": "Operation of mine education and experience programs, and overall safety management"
     },
     "calloutBody": "Viewed from above, this footprint-shaped piece of DMZ land is a symbolic space that leaves behind “footsteps of peace.” Inside the Civilian Control Zone, in a place that is not easily accessible to the public, people from around the world plant trees here.",
-    "spaceBody": "<strong>DMZ Peace Footsteps Farm</strong> — Located inside the Civilian Control Zone in Paju, Gyeonggi-do. It is farmland operated with military approval and belongs to a special restricted-access area. Travel time: about 30 minutes by car from Paju city center.<br><br><strong>Byeotkkot Pineun Maeul</strong> — A rural experience venue in Paju. A warm village space where cultural programs such as K-bibimbap and mother-of-pearl craft are offered."
+    "spaceBody": "<strong>DMZ Peace Footsteps Farm</strong> — Located inside the Civilian Control Zone in Paju, Gyeonggi-do. It is farmland operated with military approval and belongs to a special restricted-access area. Travel time: about 30 minutes by car from Paju city center.<br><br><strong>벼꽃피는마을 (Byeo-kkot-pineun Maeul)</strong> — A rural experience venue in Paju. A warm village space where cultural programs such as K-bibimbap and mother-of-pearl craft are offered."
   },
   "programs": {
     "label": "Programs",
@@ -158,7 +158,7 @@
     "treeDur": "About 60 min",
     "treeNum": "10–30 people",
     "treeLoc": "DMZ Peace Footsteps Farm",
-    "mineTitle": "💣 Peace History Education Program — Mine Education Experience",
+    "mineTitle": "💣 Peace history education — mine safety training experience",
     "mineLead": "An educational program that helps you understand the reality of division firsthand. Learn the meaning of peace through safe training mine replicas and metal detectors.",
     "mineWarnHtml": "⚠️ <strong>Safety Notice:</strong> Only safe training mine replicas are used for educational purposes. Partner: Korea Mine Research Institute",
     "mineF1": "Learn DMZ peace history",
@@ -173,17 +173,17 @@
     "culture1p": "Make your own bibimbap using local produce from Paju. Choose fresh ingredients yourself and create a bibimbap that is uniquely yours.",
     "culture1m1": "⏱ About 40 min",
     "culture1m2": "👥 10–30 people",
-    "culture1m3": "📍 Byeotkkot Pineun Maeul",
+    "culture1m3": "📍 벼꽃피는마을 (Byeo-kkot-pineun Maeul)",
     "culture2": "North Korean food experience",
     "culture2p": "A special experience where you make and taste North Korean dishes such as injo-gogi-bap and corn rice cakes. Understand the reality of division in the DMZ through food.",
     "culture2m1": "⏱ About 50 min",
     "culture2m2": "👥 10–20 people",
-    "culture2m3": "📍 Byeotkkot Pineun Maeul",
+    "culture2m3": "📍 벼꽃피는마을 (Byeo-kkot-pineun Maeul)",
     "culture3": "Mother-of-Pearl Craft",
     "culture3p": "Create phone cases, keychains, and hand mirrors using traditional mother-of-pearl decoration. Experience the beauty of Korean traditional craft with your own hands.",
     "culture3m1": "⏱ About 40 min",
     "culture3m2": "👥 10–20 people",
-    "culture3m3": "📍 Byeotkkot Pineun Maeul"
+    "culture3m3": "📍 벼꽃피는마을 (Byeo-kkot-pineun Maeul)"
   },
   "journey": {
     "label": "Journey",
@@ -193,7 +193,7 @@
     "s1p": "Select your program and request your preferred date",
     "s1m1": "🌐 Online",
     "s1m2": "⏱ In advance",
-    "s2h": "Peace History Education — Mine Experience",
+    "s2h": "Peace history education — mine safety training experience",
     "s2p": "Learn about DMZ history + use a metal detector + observe mine replicas",
     "s2m1": "📍 DMZ Farm",
     "s2m2": "⏱ About 40 min",
@@ -205,7 +205,7 @@
     "s3m3": "🌳 Signature",
     "s4h": "Cultural experience",
     "s4p": "K-bibimbap / North Korean food / mother-of-pearl craft (choose 1–2)",
-    "s4m1": "📍 Byeotkkot Pineun Maeul",
+    "s4m1": "📍 벼꽃피는마을 (Byeo-kkot-pineun Maeul)",
     "s4m2": "⏱ About 40–90 min",
     "s4m3": "🎨 Culture",
     "s5h": "Online Record",
@@ -295,7 +295,7 @@
       "countryPh": "Please enter your nationality",
       "notePh": "Feel free to write any questions you may have",
       "cbTree": "🌳 Tree planting",
-      "cbMine": "💣 Peace History (Mine Education)",
+      "cbMine": "💣 Peace history (mine safety training experience)",
       "cbBibim": "🍚 Bibimbap",
       "cbNK": "🥟 North Korean Food",
       "cbCraft": "🎨 Craft",
@@ -317,8 +317,8 @@
     "faq2a": "Basic English guidance is provided, and professional interpretation can be arranged for group bookings. An AI real-time interpretation and translation system is also planned.",
     "faq3q": "Q. How much is the participation fee?",
     "faq3a": "Pricing varies depending on the program combination and the number of participants. A detailed quotation will be provided through the inquiry form.",
-    "faq4q": "Q. Is the mine education experience safe?",
-    "faq4a": "Completely safe. Only training mine replicas are used, and safety is overseen by experts from the Korea Mine Research Institute.",
+    "faq4q": "Q. Is the mine safety training experience safe?",
+    "faq4a": "Completely safe. Only training mine replicas are used for the mine safety training experience, and safety is overseen by experts from the Korea Mine Research Institute.",
     "faq5q": "Q. Can I check on the tree I planted later?",
     "faq5a": "Yes. Once the online tracking system is built in phase 2, you will be able to check your tree through GPS location data and growth photos.",
     "faq6q": "Q. Are group bookings available?",

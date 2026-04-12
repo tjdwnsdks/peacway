@@ -127,6 +127,15 @@ body {
   background: rgba(151, 188, 98, 0.18);
   color: #97BC62;
 }
+.lang-dropdown li.is-lang-active {
+  font-weight: 700;
+  color: #97BC62;
+  background: rgba(151, 188, 98, 0.12);
+}
+.lang-dropdown li:focus {
+  outline: 2px solid rgba(151, 188, 98, 0.85);
+  outline-offset: -2px;
+}
 
 /* ─── HERO ─── */
 .hero {
