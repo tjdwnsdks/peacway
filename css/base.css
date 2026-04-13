@@ -733,7 +733,8 @@ section { padding: 100px 24px; }
 
 /* ─── RESPONSIVE ─── */
 @media (max-width: 900px) {
-  .pillars { grid-template-columns: 1fr; }
+  .pillars { grid-template-columns: 1fr; margin: 0; }
+  .pillar-icon { font-size: 4rem; }
   .partners-grid { grid-template-columns: 1fr; }
   .contact-grid { grid-template-columns: 1fr; }
   .patent-features { grid-template-columns: 1fr; }
