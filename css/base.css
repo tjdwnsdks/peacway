@@ -217,7 +217,7 @@ body {
 
 /* ─── SECTIONS ─── */
 section { padding: 100px 24px; }
-.container { max-width: 900px; margin: 0 auto; }
+.container { max-width: 960px; margin: 0 auto; }
 .section-label {
   display: inline-block; font-size: 0.7rem;
   letter-spacing: 4px; text-transform: uppercase;
@@ -321,7 +321,7 @@ section { padding: 100px 24px; }
 /* ─── ABOUT / STORY ─── */
 .story-section { background: var(--cream); }
 .story-flow {
-  display: flex; align-items: center; gap: 20px;
+  display: flex; align-items: center; gap: 16px;
   flex-wrap: wrap; justify-content: center;
   margin: 40px 0;
 }
