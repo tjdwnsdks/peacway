@@ -733,8 +733,7 @@ section { padding: 100px 24px; }
 
 /* ─── RESPONSIVE ─── */
 @media (max-width: 900px) {
-  .pillars { grid-template-columns: 1fr; margin: 0; }
-  .pillar-icon { font-size: 4rem; }
+  .pillars { grid-template-columns: 1fr; }
   .partners-grid { grid-template-columns: 1fr; }
   .contact-grid { grid-template-columns: 1fr; }
   .patent-features { grid-template-columns: 1fr; }
@@ -785,10 +784,10 @@ section { padding: 100px 24px; }
 
 
 
-@media (max-width: 600px) {
+@media (max-width: 480px) {
   .compare-table th {
     padding: 16px 14px;
-    /* font-size: 0.75rem; */
+    font-size: 0.75rem;
     min-width: 70px;
   }
   .compare-table th:first-child {
@@ -800,29 +799,27 @@ section { padding: 100px 24px; }
     padding: 14px 14px 14px 0;
     /* width: 40%; */
   } 
+
+  .compare-table th:nth-child(2) 
+  , .compare-table td:nth-child(2) {
+    min-width: 130px;
+  }
+
+
   .compare-table td {
     padding: 14px 14px;
     /* font-size: 0.75rem; */
     /* width: 40%; */
   }
   .compare-table td:first-child {
-    min-width: 70px;
+    /* min-width: 70px; */
     padding: 14px 0 14px 14px;
     /* width: 10%; */
   }
   .compare-table td:last-child {
     padding: 14px 14px 14px 0;
   }
-  .compare-quote {
-    /* font-size: 1rem; */
-    padding-left: 16px;
-  }
-}
-@media (max-width: 480px) {
-  .compare-table th {
-    font-size: 0.75rem;
-  }
-
+/* 
   .compare-table th:last-child {
     width: 40%;
   } 
@@ -839,5 +836,5 @@ section { padding: 100px 24px; }
   }
   .compare-quote {
     font-size: 1rem;
-  }
+  } */
 }
