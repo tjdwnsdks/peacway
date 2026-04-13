@@ -327,7 +327,7 @@ section { padding: 100px 24px; }
 }
 .story-flow-item {
   display: flex; align-items: center; gap: 12px;
-  background: var(--white); padding: 16px 24px;
+  background: var(--white); padding: 16px 20px;
   border-radius: 12px;
   border: 1px solid rgba(26,60,52,0.08);
 }
@@ -736,6 +736,7 @@ section { padding: 100px 24px; }
   .pillars { grid-template-columns: 1fr; margin: 0; }
   .pillar-icon { font-size: 4rem; }
   .partners-grid { grid-template-columns: 1fr; }
+  .partner-card .emoji { font-size: 4rem; }
   .contact-grid { grid-template-columns: 1fr; }
   .patent-features { grid-template-columns: 1fr; }
   .calendar-grid { grid-template-columns: repeat(4, 1fr); }
