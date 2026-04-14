@@ -49,7 +49,8 @@
   "footer": {
     "copyright": "© 2026 PEACEWAY PAJU",
     "company": "K-MIND株式会社 (K-MIND Co., Ltd.)",
-    "location": "DMZ平和の歩み農場：農業法人株式会社ディーエムジーファーマーズ\n京畿道坡州市郡内面統一村キル47, 103 / お問い合わせ：dmzfarmers@gmail.com\n\n観光案内：K-MIND株式会社 (K-MIND Co., Ltd.)\n京畿道坡州市ソグムジェンイギル60, 1F / お問い合わせ：hancodi@gmail.com"
+    "locationFarm": "DMZ平和の歩み農場：農業法人株式会社ディーエムジーファーマーズ / 京畿道坡州市郡内面統一村キル47, 103 / お問い合わせ：dmzfarmers@gmail.com",
+    "locationTour": "観光案内：K-MIND株式会社 (K-MIND Co., Ltd.) / 京畿道坡州市ソグムジェンイギル60, 1F / お問い合わせ：hancodi@gmail.com"
   },
   "home": {
     "hero": {

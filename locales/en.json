@@ -49,7 +49,8 @@
   "footer": {
     "copyright": "© 2026 PEACEWAY PAJU",
     "company": "K-MIND Co., Ltd.",
-    "location": "DMZ Peace Footsteps Farm: DMZ Farmers Co., Ltd.\n103, 47 Tongilchon-gil, Gunnae-myeon, Paju-si, Gyeonggi-do / Contact: dmzfarmers@gmail.com\n\nTour Information: K-MIND Co., Ltd.\n1F, 60 Sogeumjaengi-gil, Paju-si, Gyeonggi-do / Contact: hancodi@gmail.com"
+    "locationFarm": "DMZ Peace Footsteps Farm: DMZ Farmers Co., Ltd. / 103, 47 Tongilchon-gil, Gunnae-myeon, Paju-si, Gyeonggi-do / Contact: dmzfarmers@gmail.com",
+    "locationTour": "Tour Information: K-MIND Co., Ltd. / 1F, 60 Sogeumjaengi-gil, Paju-si, Gyeonggi-do / Contact: hancodi@gmail.com"
   },
   "home": {
     "hero": {

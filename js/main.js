@@ -35,6 +35,34 @@ function setActiveNav() {
   });
 }
 
+function showToast(message, type) {
+  var host = document.getElementById('toastHost');
+  if (!host) {
+    host = document.createElement('div');
+    host.id = 'toastHost';
+    host.className = 'toast-host';
+    host.setAttribute('aria-live', 'polite');
+    host.setAttribute('aria-atomic', 'true');
+    document.body.appendChild(host);
+  }
+
+  var toast = document.createElement('div');
+  toast.className = 'toast toast-' + (type || 'info');
+  toast.textContent = message || '';
+  host.appendChild(toast);
+
+  requestAnimationFrame(function() {
+    toast.classList.add('show');
+  });
+
+  setTimeout(function() {
+    toast.classList.remove('show');
+    setTimeout(function() {
+      if (toast.parentNode) toast.parentNode.removeChild(toast);
+    }, 180);
+  }, 2200);
+}
+
 function initMobileNav() {
   var mobileToggle = document.getElementById('mobileToggle');
   var navLinks = document.getElementById('navLinks');
@@ -65,7 +93,7 @@ function initPatentStoreDownloadClicks() {
       msgEl && msgEl.textContent && msgEl.textContent.trim()
         ? msgEl.textContent.trim()
         : '준비중입니다.';
-    window.alert(msg);
+    showToast(msg, 'info');
   });
 }
 
@@ -87,14 +115,81 @@ function initFadeInObserver() {
   });
 }
 
+function markFooterEmailsClickable() {
+  var targets = document.querySelectorAll('.footer .footer-location-farm, .footer .footer-location-tour');
+  if (!targets.length) return;
+  targets.forEach(function(el) {
+    var text = el.textContent || '';
+    if (!text) return;
+    var replaced = text.replace(
+      /\b(dmzfarmers@gmail\.com|hancodi@gmail\.com)\b/g,
+      '<a href="#" class="footer-copy-email" data-email="$1">$1</a>'
+    );
+    if (replaced !== text) {
+      el.innerHTML = replaced;
+    }
+  });
+}
+
+function copyTextFallback(text) {
+  var ta = document.createElement('textarea');
+  ta.value = text;
+  ta.setAttribute('readonly', '');
+  ta.style.position = 'fixed';
+  ta.style.left = '-9999px';
+  document.body.appendChild(ta);
+  ta.select();
+  var ok = false;
+  try {
+    ok = document.execCommand('copy');
+  } catch (e) {
+    ok = false;
+  }
+  document.body.removeChild(ta);
+  return ok;
+}
+
+function initFooterEmailCopy() {
+  if (document.body.dataset.footerEmailCopyBound === '1') return;
+  document.body.dataset.footerEmailCopyBound = '1';
+  document.addEventListener('click', function(e) {
+    var a = e.target.closest('.footer-copy-email');
+    if (!a) return;
+    e.preventDefault();
+    var email = a.getAttribute('data-email') || a.textContent || '';
+    if (!email) return;
+
+    if (navigator.clipboard && typeof navigator.clipboard.writeText === 'function') {
+      navigator.clipboard
+        .writeText(email)
+        .then(function() {
+          showToast('이메일 주소가 복사되었습니다: ' + email, 'success');
+        })
+        .catch(function() {
+          var ok = copyTextFallback(email);
+          if (ok) showToast('이메일 주소가 복사되었습니다: ' + email, 'success');
+          else showToast('복사에 실패했습니다. 직접 복사해주세요.', 'error');
+        });
+      return;
+    }
+
+    var copied = copyTextFallback(email);
+    if (copied) showToast('이메일 주소가 복사되었습니다: ' + email, 'success');
+    else showToast('복사에 실패했습니다. 직접 복사해주세요.', 'error');
+  });
+}
+
 document.addEventListener('DOMContentLoaded', function() {
   initMobileNav();
   setActiveNav();
   initPatentStoreDownloadClicks();
   initFadeInObserver();
+  markFooterEmailsClickable();
+  initFooterEmailCopy();
 });
 
 window.addEventListener('i18n-ready', function() {
   setActiveNav();
   initPatentStoreDownloadClicks();
+  markFooterEmailsClickable();
 });

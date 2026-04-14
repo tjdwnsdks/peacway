@@ -672,11 +672,67 @@ section { padding: 100px 24px; }
   letter-spacing: 3px; margin-bottom: 12px;
 }
 .footer p { font-size: 0.78rem; margin-bottom: 4px; }
-.footer p[data-i18n="footer.location"] { white-space: pre-line; }
+.footer [data-i18n="footer.copyright"],
+.footer [data-i18n="footer.company"] {
+  display: none;
+}
+.footer .footer-location-farm { margin-top: 8px; }
+.footer .footer-location-tour { margin-top: 10px; }
+.footer .footer-copy-email {
+  color: inherit;
+  text-decoration: none;
+  text-underline-offset: 2px;
+  cursor: pointer;
+}
+.footer .footer-copy-email:hover {
+  color: var(--sprout);
+}
 .footer-links { margin-top: 16px; }
 .footer-links a {
   color: var(--sprout-light); text-decoration: none;
   font-size: 0.78rem; margin: 0 12px;
+}
+
+/* ─── TOAST ─── */
+.toast-host {
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+  z-index: 3000;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  pointer-events: none;
+}
+.toast {
+  min-width: 220px;
+  max-width: min(420px, calc(100vw - 32px));
+  padding: 11px 14px;
+  border-radius: 10px;
+  font-size: 0.84rem;
+  line-height: 1.4;
+  color: var(--white);
+  background: rgba(26, 60, 52, 0.95);
+  border: 1px solid rgba(151, 188, 98, 0.35);
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.25);
+  opacity: 0;
+  transform: translateY(6px);
+  transition: opacity 0.18s ease, transform 0.18s ease;
+}
+.toast.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+.toast.toast-success {
+  background: rgba(44, 95, 45, 0.96);
+  border-color: rgba(151, 188, 98, 0.65);
+}
+.toast.toast-error {
+  background: rgba(125, 38, 38, 0.97);
+  border-color: rgba(235, 150, 150, 0.45);
+}
+.toast.toast-info {
+  background: rgba(26, 60, 52, 0.95);
 }
 
 /* ─── DIVIDER ─── */
