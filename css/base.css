@@ -672,6 +672,7 @@ section { padding: 100px 24px; }
   letter-spacing: 3px; margin-bottom: 12px;
 }
 .footer p { font-size: 0.78rem; margin-bottom: 4px; }
+.footer p[data-i18n="footer.location"] { white-space: pre-line; }
 .footer-links { margin-top: 16px; }
 .footer-links a {
   color: var(--sprout-light); text-decoration: none;
