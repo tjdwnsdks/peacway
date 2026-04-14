@@ -801,7 +801,17 @@ section { padding: 100px 24px; }
   .nav-mobile-toggle { display: block; }
   .nav-end {
     gap: 6px;
-  } 
+  }
+  .nav-links.open {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 64px;
+    left: 0;
+    right: 0;
+    background: rgba(26,60,52,0.98);
+    padding: 16px;
+  }
 }
 @media (max-width: 900px) {
   .pillars { grid-template-columns: 1fr; margin: 0; }
@@ -814,20 +824,10 @@ section { padding: 100px 24px; }
   .stats-bar { grid-template-columns: 1fr; gap: 16px; }
 }
 @media (max-width: 768px) {
-  /* .nav-links { display: none; }
-  .nav-mobile-toggle { display: block; }
-  .nav-end {
-    gap: 6px;
-  } */
   .lang-current {
     min-width: 40px;
     padding: 8px 10px;
     font-size: 0.75rem;
-  }
-  .nav-links.open {
-    display: flex; flex-direction: column;
-    position: absolute; top: 64px; left: 0; right: 0;
-    background: rgba(26,60,52,0.98); padding: 16px;
   }
   .calendar-grid { grid-template-columns: repeat(3, 1fr); }
   .patent-flow { gap: 8px; }
