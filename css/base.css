@@ -789,6 +789,20 @@ section { padding: 100px 24px; }
 .fade-in.visible { opacity: 1; transform: translateY(0); }
 
 /* ─── RESPONSIVE ─── */
+@media (max-width: 1140px) {
+  .nav-links a {
+    padding: 8px 10px;
+    /* font-size: 0.75rem; */
+  }
+  
+}
+@media (max-width: 1024px) {
+  .nav-links { display: none; }
+  .nav-mobile-toggle { display: block; }
+  .nav-end {
+    gap: 6px;
+  } 
+}
 @media (max-width: 900px) {
   .pillars { grid-template-columns: 1fr; margin: 0; }
   .pillar-icon { font-size: 4rem; }
@@ -800,11 +814,11 @@ section { padding: 100px 24px; }
   .stats-bar { grid-template-columns: 1fr; gap: 16px; }
 }
 @media (max-width: 768px) {
-  .nav-links { display: none; }
+  /* .nav-links { display: none; }
   .nav-mobile-toggle { display: block; }
   .nav-end {
     gap: 6px;
-  }
+  } */
   .lang-current {
     min-width: 40px;
     padding: 8px 10px;
