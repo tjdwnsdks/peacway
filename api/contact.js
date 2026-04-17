@@ -148,7 +148,10 @@ module.exports = async function handler(req, res) {
   }
 
   var apiKey = process.env.RESEND_API_KEY;
-  var to = process.env.CONTACT_TO_EMAIL;
+  var to = process.env.CONTACT_TO_EMAIL
+  .split(',')
+  .map(function(s) { return s.trim(); })
+  .filter(function(s) { return s.length > 0; });
   var from = process.env.CONTACT_FROM_EMAIL;
   if (!apiKey || !to || !from) {
     res.statusCode = 500;
@@ -186,7 +189,7 @@ module.exports = async function handler(req, res) {
 
   var payload = {
     from: from,
-    to: [to],
+    to: to,
     reply_to: email,
     subject: subject,
     html: html,
