@@ -153,7 +153,7 @@ module.exports = async function handler(req, res) {
   .map(function(s) { return s.trim(); })
   .filter(function(s) { return s.length > 0; });
   var from = process.env.CONTACT_FROM_EMAIL;
-  if (!apiKey || !to || !from) {
+  if (!apiKey || !to.length || !from) {
     res.statusCode = 500;
     return res.end(
       JSON.stringify({ ok: false, code: 'CONFIG_ERROR', message: 'Server email not configured' })
