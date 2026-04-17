@@ -129,11 +129,20 @@ module.exports = async function handler(req, res) {
     res.statusCode = 400;
     return res.end(JSON.stringify({ ok: false, code: 'VALIDATION_ERROR', message: 'Valid email required' }));
   }
+  var phoneDigits = phone.replace(/\D/g, '');
+  if (phone.length > 0 && (phoneDigits.length < 8 || phoneDigits.length > 15)) {
+    res.statusCode = 400;
+    return res.end(JSON.stringify({ ok: false, code: 'VALIDATION_ERROR', message: 'Valid phone required (8-15 digits)' }));
+  }
   if (programs.length === 0) {
     res.statusCode = 400;
     return res.end(
       JSON.stringify({ ok: false, code: 'VALIDATION_ERROR', message: 'Select at least one program' })
     );
+  }
+  if (!/^\d+$/.test(partySize) || Number(partySize) < 1) {
+    res.statusCode = 400;
+    return res.end(JSON.stringify({ ok: false, code: 'VALIDATION_ERROR', message: 'Party size must be at least 1' }));
   }
   /* 기타 문의사항: 비어 있으면 통과, 입력이 있으면 trim 기준 최소 길이 */
   if (message.length > 0 && message.length < MIN_MESSAGE_LEN) {
@@ -148,7 +157,7 @@ module.exports = async function handler(req, res) {
   }
 
   var apiKey = process.env.RESEND_API_KEY;
-  var to = process.env.CONTACT_TO_EMAIL
+  var to = (process.env.CONTACT_TO_EMAIL || '')
   .split(',')
   .map(function(s) { return s.trim(); })
   .filter(function(s) { return s.length > 0; });

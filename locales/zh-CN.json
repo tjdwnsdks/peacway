@@ -306,7 +306,9 @@
     "formFeedback": {
       "valName": "请输入至少 2 个字符的姓名。",
       "valEmail": "请输入有效的电子邮箱。",
+      "valPhone": "请输入有效的联系方式（数字合计8–15位）。",
       "valPrograms": "请至少选择一项意向项目。",
+      "valPartySize": "请输入至少 1 名参与人数。",
       "valMessage": "如填写「其他咨询事项」，请至少输入 10 个字符。",
       "sending": "发送中…",
       "success": "我们已收到您的咨询，将尽快与您联系。",

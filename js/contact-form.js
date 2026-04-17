@@ -9,11 +9,31 @@
   var EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   var FB = 'contact.formFeedback.';
 
+  /** i18n 로드 전 등 peacewayT 미준비 시 한국어 기본 문구 */
+  var FALLBACK = {
+    valName: '이름을 2글자 이상 입력해 주세요.',
+    valEmail: '올바른 이메일 주소를 입력해 주세요.',
+    valPhone: '연락처는 숫자 기준 8~15자리로 입력해 주세요.',
+    valPrograms: '희망 프로그램을 하나 이상 선택해 주세요.',
+    valPartySize: '인원수를 1명 이상 입력해 주세요.',
+    valMessage: '기타 문의사항을 10글자 이상 입력해 주세요.',
+    sending: '전송 중…',
+    success: '문의가 접수되었습니다.',
+    errorNetwork: '네트워크 오류입니다. 잠시 후 다시 시도해 주세요.',
+    errorServer: '전송에 실패했습니다. 잠시 후 다시 시도해 주세요.',
+    errorBadRequest: '입력 내용을 확인해 주세요.',
+  };
+
   function t(key) {
     var fn = window.peacewayT;
-    if (typeof fn !== 'function') return '';
-    var s = fn(FB + key);
-    return s != null ? String(s) : '';
+    if (typeof fn === 'function') {
+      var s = fn(FB + key);
+      if (s != null && String(s).trim().length > 0) {
+        return String(s);
+      }
+    }
+    if (FALLBACK[key] != null) return FALLBACK[key];
+    return key;
   }
 
   function getEl(id) {
@@ -48,11 +68,19 @@
     return { keys: keys, labels: labels.join(', ') };
   }
 
-  function validate(name, email, progKeys, message, honeypot) {
+  function validate(name, email, phone, preferredDate, progKeys, partySize, message, honeypot) {
     if (honeypot && String(honeypot).trim().length > 0) return { ok: false, silent: true };
     if (!name || name.trim().length < 2) return { ok: false, msg: t('valName') };
     if (!email || !EMAIL_RE.test(email.trim())) return { ok: false, msg: t('valEmail') };
+    var phoneTrim = phone != null ? String(phone).trim() : '';
+    var phoneRaw = phoneTrim;
+    var phoneDigits = phoneRaw.replace(/\D/g, '');
+    if (phoneRaw.length > 0 && (phoneDigits.length < 8 || phoneDigits.length > 15)) {
+      return { ok: false, msg: t('valPhone') };
+    }
     if (!progKeys.length) return { ok: false, msg: t('valPrograms') };
+    var partySizeTrim = partySize != null ? String(partySize).trim() : '';
+    if (!/^\d+$/.test(partySizeTrim) || Number(partySizeTrim) < 1) return { ok: false, msg: t('valPartySize') };
     var msgTrim = message != null ? String(message).trim() : '';
     if (msgTrim.length > 0 && msgTrim.length < MIN_MESSAGE) return { ok: false, msg: t('valMessage') };
     return { ok: true };
@@ -105,7 +133,7 @@
       var message = (getEl('contactMessage') && getEl('contactMessage').value) || '';
       var progs = collectPrograms(form);
 
-      var v = validate(name, email, progs.keys, message, honeypot);
+      var v = validate(name, email, phone, preferredDate, progs.keys, partySize, message, honeypot);
       if (!v.ok) {
         if (v.silent) {
           setFeedback(feedback, 'success', t('success'));
